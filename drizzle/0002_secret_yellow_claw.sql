@@ -1,0 +1,1 @@
+ALTER TABLE `trip_groups` ADD `selected_candidate_id` text;

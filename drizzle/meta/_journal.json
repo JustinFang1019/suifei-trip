@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1786474981915,
+      "tag": "0000_mighty_cardiac",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1786475032598,
+      "tag": "0001_parched_iron_fist",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1786476540640,
+      "tag": "0002_secret_yellow_claw",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1786511017928,
+      "tag": "0003_shiny_prima",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1786553428048,
+      "tag": "0004_white_silver_surfer",
+      "breakpoints": true
+    }
+  ]
+}
