@@ -382,7 +382,456 @@ function Topbar({ workspaceKind, onHome, onMyGroups }: { workspaceKind: "solo" |
       <button className="brand" type="button" onClick={onHome} aria-label="å›åˆ°éš¨é£›é¦–é ">
         <span className="brand-mark"><span /></span><b>éš¨é£›</b><small>éš¨æ€§å‡ºç™¼</small>
       </button>
-      <div className="topbar-note"×M|æÚ$z{-®éÜj×˜X{®j)ŞK»nKŠnX»î˜k©nX)ZèÎh‰[èÎûÈÎh˜ŞiÈ>X{®xûîh›îzZhÈ˜‰^8"#°¢&WGW&â€¢ÆF—b6Æ74æÖSÒ&w&÷W×7VÖÖ'’#ãÆF—b6Æ74æÖS×¶7VÖÖ'’×&–ærG¶6ö×ÆWFRò&6ö×ÆWFR"¢"'ÖÓãÇ7G&öæsç¶FWF–Âç7VÖÖ'’æ6ö×ÆWFVGÓÂ÷7G&öæsãÇ6ÖÆÃâ÷¶FWF–Âç7VÖÖ'’çF÷FÇÓÂ÷6ÖÆÃãÂöF—cãÆF—cãÇ7â6Æ74æÖSÒ'6V7F–öâÖ¶–6¶W"#ç·6öÆòò.yºîX˜Şi	Î[¾j)ŞK»b"¢.XZY:k©nX)x¸hX²'ÓÂ÷7ããÆƒ#ç·6öÆòò.[{.ZèÎh‰X¾K«®j)ŞK»b"¢6ö×ÆWFRò.ZJ~Zën˜;Şk©nX)Z[ŞK¨b"¢˜(N[zâG¶FWF–Âç7VÖÖ'’çF÷FÂÒFWF–Âç7VÖÖ'’æ6ö×ÆWFVGÒK«®z+®Š¨ÖÓÂöƒ#ãÇç·7VÖÖ'•FW‡GÓÂ÷ãÂöF—cãÂöF—cà¢“°§Ğ ¦gVæ7F–öâ6Æ7VÆF–öåæVÂ‡²6öÆòÓ¢²6öÆó¢&ööÆVâÒ’°¢&WGW&â€¢Ç6V7F–öâ6Æ74æÖSÒ&6Æ7VÆF–öâ×æVÂ"&–ÖÆ&VÃÒ.XşZ[ŞXˆni[Šˆzé~ik[Èò#à¢ÆF—cãÇ7â6Æ74æÖSÒ&6Æ2ÖçVÖ&W"#ãÂ÷7ããÆƒ3îXXZY~yJKˆŞˆ;Ş˜^XøŞy¨Nj)ŞK»cÂöƒ3ãÇîiz^iÉş[ø^šiÈKªN™¸n8ZJi[[ø^šZë[é~Kˆ¾8yºîy¨NYË[ø^šYÊh˜iÈK«®y¨NzøNYÈŞXZ~ûÈÎKŠn˜^Zèy»Nš9¾h‰n‹Øj™şKˆ®™™8.KˆŞzÊnY[y»Nhê^hé.™šNûÈÎKˆŞiÈ>™ÚXˆni[Š9ÎY¹îKèn8#Â÷ãÂöF—cà¢ÆF—cãÇ7â6Æ74æÖSÒ&6Æ2ÖçVÖ&W"#ã#Â÷7ããÆƒ3ç·6öÆòò.Šˆzé~KÚy¨NXşZ[ŞY¾Y[ªb"¢.Šˆzé~jøşKØŞh‰Y:y¨NXşZ[ŞY¾Y[ªb'ÓÂöƒ3ãÇîix^ŠÎš*jÎXÚCR^8yºîy¨NYË[N{I®XÚCR^8š	zé~y»[ŞikÎyºîy¨NYËXø>ˆ>X;XÚ^8.hÈ~Zé®Yøî[ˆ.jùNXú®˜kK.XŠ^xÛ.[é~i»Nš¹y¨Nyºîy¨NYËY¾Y[ªn8#Â÷ãÂöF—cà¢ÆF—cãÇ7â6Æ74æÖSÒ&6Æ2ÖçVÖ&W"#ã3Â÷7ããÆƒ3ç·6öÆòò.hù¾zé~h‰XşZ[ŞXˆni[‚"¢.[›>YØ~K˜¾ZInûÈÎK™şxZ~š~iÈKØîXˆnh‰Y:'ÓÂöƒ3ãÇç·6öÆòò.yZ¾™Ú.Xˆni[iŠòc"XˆnYû®zHîXÎûÈÎXªKˆ®XşZ[ŞY¾Y{YiéÎhù¾zé~ûÉ¾Zè>iŠşX	˜hé.[¨şXˆni[ûÈÎKˆŞiŠşh‰X©şj™şxè~8""¢.YÉš¹NXˆni[ûÉÓc"XˆnYû®zHîXÎûÈ¾XZY:[›>YØ~Y¾Y[ªnhù¾zér#2XˆnûÈ¾iÈKØîY¾Yh‰Y:hù¾zérRXˆnûÈÎ˜şXXŞXú®xZ~ZI®i[k®xª~x›.X[nKŠŞKˆK«®8"'ÓÂ÷ãÂöF—cà¢ÆF—cãÇ7â6Æ74æÖSÒ&6Æ2ÖçVÖ&W"#ãCÂ÷7ããÆƒ3îXÛ>i˜.ˆŠ®xúŞXúnZInš™~ŠØ“Âöƒ3ãÇîXşZ[ŞXˆni[KˆŞXÈ^Y
-¾[	®iÊ®iú^X‹y¨NzZX;8.Kˆ{XNiz^iÉşiÈ>Y	vöövÆRfÆ–v‡G2XÛ>i˜.iú^X;ûÈÎiÈXúşYJîˆŠ®xúŞh˜Şh‰z¸¾ûÈÎXhŞKéŞYNyºîy¨NYËy¨NZún™©¾zZX;hé.[¨şiz^iÉş8#Â÷ãÂöF—cà¢Ç6Æ74æÖSÒ&6Æ7VÆF–öâÖæ÷FR#î˜	iŠş˜şiˆîy¨NyJ.Y8hé.[¨şŠhşX˜~ûÈÎKˆŞiŠò’xÉÎkŠÎûÈÎK™şKˆŞiŠşzZX;KëşZéÎj™şxè~8.X[nK¹nh‰Y:KˆŞiÈ>yÈ¾X‹KÚy¨N{+îz+®š	zé~h‰nX¾K«®Xˆni[8#Â÷à¢Â÷6V7F–öãà¢“°§Ğ ¦gVæ7F–öâf÷FU7VÖÖ'’‡²FWF–ÂÓ¢²FWF–Ã¢w&÷WFWF–ÂÒ’°¢6öç7BFÆÆ–W2ÒFWF–Âçf÷F–ærçFÆÆ–W0¢æÖ‚‡FÆÇ’’Óâ‡²ââçFÆÇ’Â6æF–FFS¢FWF–Âæ6æF–FFW2æf–æB‚†6æF–FFR’Óâ6æF–FFRæ–BÓÓÒFÆÇ’æ6æF–FFT–B’Ò’¢æf–ÇFW"‚‡FÆÇ’’ÓâFÆÇ’æ6æF–FFR“°¢6öç7BÆVF–æt6÷VçBÒÖF‚æÖ‚ƒÂââçFÆÆ–W2æÖ‚‡FÆÇ’’ÓâFÆÇ’æ6÷VçB’“°¢6öç7Bæ÷Ef÷FVBÒFWF–ÂæÖVÖ&W'0¢æf–ÇFW"‚†ÖVÖ&W"’ÓâFWF–Âçf÷F–ærçf÷FVEW6W$–G2æ–æ6ÇVFW2†ÖVÖ&W"çW6W$–B’¢æÖ‚†ÖVÖ&W"’ÓâÖVÖ&W"æF—7Æ”æÖR“°¢&WGW&â€¢Ç6V7F–öâ6Æ74æÖSÒ'f÷FR×7VÖÖ'’"&–ÖÆ&VÃÒ.ix^YÉh©^zZiŠh#à¢ÆF—b6Æ74æÖSÒ'f÷FR×7VÖÖ'’Ö†VB#ãÆF—cãÇ7â6Æ74æÖSÒ'6V7F–öâÖ¶–6¶W"#îh©^zZXÛ>i˜.iŠhÂ÷7ããÆƒ3ç¶FWF–Âçf÷F–ærçf÷FW'46÷VçGÒ÷¶FWF–Âçf÷F–ærçF÷FÄÖVÖ&W'7ÒK«®[{.h©^zZƒÂöƒ3ãÂöF—cãÇ7â6Æ74æÖSÒ&×VÇF’×f÷FRÖæ÷FR#îjøşK«®XúşKº^ŠH~˜ƒÂ÷7ããÂöF—cà¢ÆF—b6Æ74æÖSÒ'f÷FR×FÆÇ’Öw&–B#à¢·FÆÆ–W2æÖ‚‡FÆÇ’’ÓâÆF—b6Æ74æÖS×¶f÷FR×FÆÇ’G¶ÆVF–æt6÷VçBâbbFÆÇ’æ6÷VçBÓÓÒÆVF–æt6÷VçBò&ÆVF–ær"¢"'ÖÒ¶W“×·FÆÇ’æ6æF–FFT–GÓà¢ÆF—cãÆ#ç·FÆÇ’æ6æF–FFSòæFW7F–æF–öçÓÂö#ãÇ7G&öæsç·FÆÇ’æ6÷VçGÒzZƒÂ÷7G&öæsãÂöF—cà¢ÆF—b6Æ74æÖSÒ'f÷FRÖF÷G2"&–ÖÆ&VÃ×¶G·FÆÇ’æ6÷VçGÒzZ†Óç¶FWF–ÂæÖVÖ&W'2æÖ‚†ÖVÖ&W"’ÓâÇ7â6Æ74æÖS×·FÆÇ’çf÷FW%W6W$–G2æ–æ6ÇVFW2†ÖVÖ&W"çW6W$–B’ò&f–ÆÆVB"¢"'Ò¶W“×¶ÖVÖ&W"çW6W$–GÒF—FÆS×¶ÖVÖ&W"æF—7Æ”æÖWÒóâ—ÓÂöF—cà¢Ç6ÖÆÃç·FÆÇ’çf÷FW$æÖW2æÆVæwF‚òFÆÇ’çf÷FW$æÖW2æ¦ö–â‚.8"’¢.˜(Nk).iÈK«®˜‚'ÓÂ÷6ÖÆÃà¢ÂöF—câ—Ğ¢ÂöF—cà¢Çç¶æ÷Ef÷FVBæÆVæwF‚ò[	®iÊ®h©^zZûÉ¢G¶æ÷Ef÷FVBæ¦ö–â‚.8"—Ö¢.XZY:˜;Ş[{.{i>h©^zZûÉ¾K¸ŞXúş{›Î{¨ÎZ)î˜h‰nXùnkh8"'ÓÂ÷à¢Â÷6V7F–öãà¢“°§Ğ ¦gVæ7F–öâ6æF–FFT6&B‡²6æF–FFRÂ&æ²Â6öÆòÂ6VÆV7FVBÂ'W7’Â÷&–v–âÂGVÇG2Âöä6†ö÷6RÓ¢²6æF–FFS¢6æF–FFS²&æ³¢çVÖ&W#²6öÆó¢&ööÆVã²6VÆV7FVC¢&ööÆVã²'W7“¢&ööÆVã²÷&–v–ã¢7G&–æs²GVÇG3¢çVÖ&W#²öä6†ö÷6S¢‚’Óâ&öÖ—6SÄw&÷WFWF–ÂÂçVÆÃâÒ’°¢6öç7B—'÷'G2Ò6æF–FFRç–ÆöBæ—'÷'G3òæÆVæwF‚ò6æF–FFRç–ÆöBæ—'÷'G2¢·²6öFS¢6æF–FFRç–ÆöBæ6öFRÂæÖS¢G¶6æF–FFRæFW7F–æF–öçŞK‹¾Šhj™şZFÕÓ°¢6öç7B6÷W&6TFFT÷F–öç2Ò6æF–FFRç–ÆöBæFFT÷F–öç3òæÆVæwF‚ò6æF–FFRç–ÆöBæFFT÷F–öç2¢·²FW'GW&TFFS¢6æF–FFRæFW'GW&TFFRÂ&WGW&äFFS¢6æF–FFRç&WGW&äFFRÂÖF6…G—S¢&÷fW&Æ"26öç7BÕÓ°¢6öç7B6W&–Æ—¦VDFFT÷F–öç2Ò¥4ôâç7G&–æv–g’‡6÷W&6TFFT÷F–öç2“°¢6öç7B¶—'÷'D6öFRÂ6WD—'÷'D6öFUÒÒW6U7FFR†—'÷'G5³Òæ6öFR“°¢6öç7B6VÆV7FVD—'÷'BÒ—'÷'G2æf–æB‚†—'÷'B’Óâ—'÷'Bæ6öFRÓÓÒ—'÷'D6öFR’óò—'÷'G5³Ó°¢6öç7B&æ¶–æt6öçFW‡D¶W’ÒG¶÷&–v–âÇÂ%ER'Ó¢G·6VÆV7FVD—'÷'Bæ6öFWÓ¢G¶GVÇG7Ó¢G¶6æF–FFRç–ÆöBæÖ…7F÷7Ó¢G·6W&–Æ—¦VDFFT÷F–öç7Ö°¢6öç7B·&æ¶VDFFW2Â6WE&æ¶VDFFW5ÒÒW6U7FFR‚‚’Óâ6÷W&6TFFT÷F–öç2æÖ‚†÷F–öâÂ÷&–v–æÄ÷&FW"’Óâ‡²ââæ÷F–öâÂ÷&–v–æÄ÷&FW"ÂV÷FS¢²7FGW3¢&ÆöF–ær"Ò2Æ—fUV÷FRÒ’’“°¢6öç7B·&W6öÇfVE&æ¶–æt¶W’Â6WE&W6öÇfVE&æ¶–æt¶W•ÒÒW6U7FFR‚""“°¢6öç7B·6VÆV7FVDFFT¶W’Â6WE6VÆV7FVDFFT¶W•ÒÒW6U7FFR†G·6÷W&6TFFT÷F–öç5³ÒæFW'GW&TFFWÓ¢G·6÷W&6TFFT÷F–öç5³Òç&WGW&äFFWÖ“°¢6öç7Bf—6–&ÆU&æ¶VDFFW2Ò&W6öÇfVE&æ¶–æt¶W’ÓÓÒ&æ¶–æt6öçFW‡D¶W’ò&æ¶VDFFW2¢6÷W&6TFFT÷F–öç2æÖ‚†÷F–öâÂ÷&–v–æÄ÷&FW"’Óâ‡²ââæ÷F–öâÂ÷&–v–æÄ÷&FW"ÂV÷FS¢²7FGW3¢&ÆöF–ær"Ò2Æ—fUV÷FRÒ’“° ¢W6TVffV7B‚‚’Óâ°¢6öç7B6öçG&öÆÆW"ÒæWr&÷'D6öçG&öÆÆW"‚“°¢6öç7B÷F–öç2Ò¥4ôâç'6R‡6W&–Æ—¦VDFFT÷F–öç2’2'&“Ç²FW'GW&TFFS¢7G&–æs²&WGW&äFFS¢7G&–æs²ÖF6…G—S¢&W†7B"Â&÷fW&Æ"Óã° ¢&öÖ—6RæÆÂ†÷F–öç2æÖ†7–æ2†÷F–öâÂ÷&–v–æÄ÷&FW"’Óâ°¢6öç7BV÷FU&×2ÒæWrU$Å6V&6…&×2‡°¢÷&–v–ã¢÷&–v–âÇÂ%ER"À¢FW7F–æF–öã¢6VÆV7FVD—'÷'Bæ6öFRÀ¢FW'GW&TFFS¢÷F–öâæFW'GW&TFFRÀ¢&WGW&äFFS¢÷F–öâç&WGW&äFFRÀ¢GVÇG3¢7G&–ær„ÖF‚æÖ‚ƒÂGVÇG2’’À¢F—&V7DöæÇ“¢7G&–ær†6æF–FFRç–ÆöBæÖ…7F÷2ÓÓÒ’À¢Ò“°¢G'’°¢6öç7B&W7VÇBÒv—BfWF6‚†ö’öfÆ–v‡G2÷V÷FSòG·V÷FU&×7ÖÂ²6–væÃ¢6öçG&öÆÆW"ç6–væÂÒ“°¢6öç7B&öG’Òv—B&W7VÇBæ§6öâ‚’2Æ—fUV÷FS°¢6öç7BV÷FRÒ&W7VÇBæö²ò&öG’¢²ââæ&öG’Â7FGW3¢&öG’ç7FGW2ÓÓÒ'Væ6öæf–wW&VB"ò'Væ6öæf–wW&VB"26öç7B¢&W'&÷""26öç7BÓ°¢&WGW&â²ââæ÷F–öâÂ÷&–v–æÄ÷&FW"ÂV÷FRÓ°¢Ò6F6‚†W'&÷#¢Væ¶æ÷vâ’°¢–b†W'&÷"–ç7Fæ6VöbDôÔW†6WF–öâbbW'&÷"ææÖRÓÓÒ$&÷'DW'&÷""’F‡&÷rW'&÷#°¢&WGW&â²ââæ÷F–öâÂ÷&–v–æÄ÷&FW"ÂV÷FS¢²7FGW3¢&W'&÷""26öç7BÂW'&÷#¢.iª¾i˜.xJk9^Xùn[é~XÛ>i˜.ZX;’"ÒÓ°¢Ğ¢Ò’’çF†Vâ‚‡&W7VÇG2’Óâ°¢6öç7B'”f–Æ&–Æ—G”æE&–6RÒ†¢‡G—Vöb&W7VÇG2•¶çVÖ&W%ÒÂ#¢‡G—Vöb&W7VÇG2•¶çVÖ&W%Ò’Óâ°¢6öç7B7FGW5&æ²Ò‡V÷FS¢Æ—fUV÷FR’ÓâV÷FRç7FGW2ÓÓÒ&Æ—fR"ò¢V÷FRç7FGW2ÓÓÒ&æõöF—&V7B"ÇÂV÷FRç7FGW2ÓÓÒ&æõ÷&W7VÇG2"ò¢#°¢6öç7B7FGW4F–ffW&Væ6RÒ7FGW5&æ²†çV÷FR’Ò7FGW5&æ²†"çV÷FR“°¢–b‡7FGW4F–ffW&Væ6R’&WGW&â7FGW4F–ffW&Væ6S°¢–b†çV÷FRç7FGW2ÓÓÒ&Æ—fR"bb"çV÷FRç7FGW2ÓÓÒ&Æ—fR"’&WGW&â†çV÷FRç&–6RóòçVÖ&W"äÔ…õ4dUô”åDTtU"’Ò†"çV÷FRç&–6RóòçVÖ&W"äÔ…õ4dUô”åDTtU"“°¢&WGW&âæ÷&–v–æÄ÷&FW"Ò"æ÷&–v–æÄ÷&FW#°¢Ó°¢6öç7B6÷'FVBÒ6æF–FFRç–ÆöBæFFTÖöFRÓÓÒ&W†7B ¢ò²ââç&W7VÇG2æf–ÇFW"‚‡&W7VÇB’Óâ&W7VÇBæÖF6…G—RÓÓÒ&W†7B"’Âââç&W7VÇG2æf–ÇFW"‚‡&W7VÇB’Óâ&W7VÇBæÖF6…G—RÓÒ&W†7B"’ç6÷'B†'”f–Æ&–Æ—G”æE&–6R•Ğ¢¢²ââç&W7VÇG5Òç6÷'B†'”f–Æ&–Æ—G”æE&–6R“°¢–b†6öçG&öÆÆW"ç6–væÂæ&÷'FVB’&WGW&ã°¢6WE&æ¶VDFFW2‡6÷'FVB“°¢6WE&W6öÇfVE&æ¶–æt¶W’‡&æ¶–æt6öçFW‡D¶W’“°¢6öç7B&VfW'&VBÒ6æF–FFRç–ÆöBæFFTÖöFRÓÓÒ&W†7B"ò6÷'FVE³Ò¢6÷'FVBæf–æB‚‡&W7VÇB’Óâ&W7VÇBçV÷FRç7FGW2ÓÓÒ&Æ—fR"’óò6÷'FVE³Ó°¢–b‡&VfW'&VB’6WE6VÆV7FVDFFT¶W’†G·&VfW'&VBæFW'GW&TFFWÓ¢G·&VfW'&VBç&WGW&äFFWÖ“°¢Ò’æ6F6‚‚†W'&÷#¢Væ¶æ÷vâ’Óâ°¢–b‚†W'&÷"–ç7Fæ6VöbDôÔW†6WF–öâbbW'&÷"ææÖRÓÓÒ$&÷'DW'&÷""’’°¢6WE&æ¶VDFFW2†÷F–öç2æÖ‚†÷F–öâÂ÷&–v–æÄ÷&FW"’Óâ‡²ââæ÷F–öâÂ÷&–v–æÄ÷&FW"ÂV÷FS¢²7FGW3¢&W'&÷""ÂW'&÷#¢.iª¾i˜.xJk9^Xùn[é~XÛ>i˜.ZX;’"Ò2Æ—fUV÷FRÒ’’“°¢6WE&W6öÇfVE&æ¶–æt¶W’‡&æ¶–æt6öçFW‡D¶W’“°¢Ğ¢Ò“°¢&WGW&â‚’Óâ6öçG&öÆÆW"æ&÷'B‚“°¢ÒÂ¶GVÇG2Â6æF–FFRç–ÆöBæFFTÖöFRÂ6æF–FFRç–ÆöBæÖ…7F÷2Â÷&–v–âÂ&æ¶–æt6öçFW‡D¶W’Â6VÆV7FVD—'÷'Bæ6öFRÂ6W&–Æ—¦VDFFT÷F–öç5Ò“° ¢6öç7B6VÆV7FVDFFU&W7VÇBÒf—6–&ÆU&æ¶VDFFW2æf–æB‚†÷F–öâ’ÓâG¶÷F–öâæFW'GW&TFFWÓ¢G¶÷F–öâç&WGW&äFFWÖÓÓÒ6VÆV7FVDFFT¶W’’óòf—6–&ÆU&æ¶VDFFW5³Ó°¢6öç7B6VÆV7FVDFFRÒ6VÆV7FVDFFU&W7VÇBóò6÷W&6TFFT÷F–öç5³Ó°¢6öç7BF—7Æ–VEV÷FS¢Æ—fUV÷FRÒ6VÆV7FVDFFU&W7VÇCòçV÷FRóò²7FGW3¢&ÆöF–ær"Ó°¢6öç7BÆ—fTFFT6÷VçBÒf—6–&ÆU&æ¶VDFFW2æf–ÇFW"‚†÷F–öâ’Óâ÷F–öâçV÷FRç7FGW2ÓÓÒ&Æ—fR"’æÆVæwFƒ° ¢6öç7BvöövÆU&×2ÒæWrU$Å6V&6…&×2‡°¢†Ã¢'¦‚ÕEr"À¢7W'#¢%EtB"À¢¢G¶÷&–v–âÇÂ%ER'ÒX‹G·6VÆV7FVD—'÷'Bæ6öFWÒG·6VÆV7FVDFFRæFW'GW&TFFWÒˆ{2G·6VÆV7FVDFFRç&WGW&äFFWÒG¶6æF–FFRç–ÆöBæÖ…7F÷2ÓÓÒò"y»Nš9²"¢"'ÖÀ¢Ò“°¢6öç7BfÆ–v‡EW&ÂÒ‡GG3¢ò÷wwrævöövÆRæ6öÒ÷G&fVÂöfÆ–v‡G3òG¶vöövÆU&×2çFõ7G&–ær‚—Ö°¢6öç7BV÷FUF—FÆRÒF—7Æ–VEV÷FRç7FGW2ÓÓÒ&ÆöF–ær ¢ò.jÚ>YÊiú^XÛ>i˜.zZX;(
-b ¢¢F—7Æ–VEV÷FRç7FGW2ÓÓÒ&Æ—fR"bbF—7Æ–VEV÷FRç&–6RÓÒVæFVf–æV@¢òÖöæW’†F—7Æ–VEV÷FRç&–6R¢¢F—7Æ–VEV÷FRç7FGW2ÓÓÒ&æõöF—&V7B ¢ò.˜	{XNiz^iÉşk).iÈy»Nš9² ¢¢F—7Æ–VEV÷FRç7FGW2ÓÓÒ&æõ÷&W7VÇG2 ¢ò.˜	{XNiz^iÉşk).iÈXúşYJîˆŠ®xúÒ ¢¢F—7Æ–VEV÷FRç7FGW2ÓÓÒ'Væ6öæf–wW&VB ¢ò.[	®iÊ®˜
->hê^XÛ>i˜.‹8~iik© ¢¢.XÛ>i˜.iú^X;iª¾i˜.ZKiYr#°¢6öç7BV÷FTæ÷FRÒF—7Æ–VEV÷FRç7FGW2ÓÓÒ&Æ—fR ¢òG¶F—7Æ–VEV÷FRç6÷W&6WÒXÛ>i˜.{YiéÂG¶6æF–FFRç–ÆöBæÖ…7F÷2ÓÓÒò"+r[{.š™~ŠØXZzˆ¾y»Nš9²"¢"'Ò+rKˆ{XNiz^iÉşKŠÒG¶Æ—fTFFT6÷VçGÒ{XNiÈzZ‚+rG¶F—7Æ–VEV÷FRæ6†V6¶VDBòæWrFFR†F—7Æ–VEV÷FRæ6†V6¶VDB’çFôÆö6ÆUF–ÖU7G&–ær‚'¦‚ÕEr"Â²†÷W#¢#"ÖF–v—B"ÂÖ–çWFS¢#"ÖF–v—B"Ò’¢.X™¾X™²'Ö ¢¢F—7Æ–VEV÷FRç7FGW2ÓÓÒ&æõöF—&V7B ¢ò$vöövÆRfÆ–v‡G2iú^xJ˜	{XNiz^iÉşy¨NXë¾Y¹îzˆ¾y»Nš9¾ûÉ¾˜	X¾{XNYKˆŞh‰z¸² ¢¢F—7Æ–VEV÷FRç7FGW2ÓÓÒ&æõ÷&W7VÇG2 ¢ò$vöövÆRfÆ–v‡G2iú^xJ˜	{XNiz^iÉşy¨NXúşYJîˆŠ®xúŞûÉ¾˜	X¾{XNYKˆŞh‰z¸² ¢¢F—7Æ–VEV÷FRç7FGW2ÓÓÒ'Væ6öæf–wW&VB ¢ò.™ÈiKîXZR6W'’’¶W’[èÎh˜ŞiÈ>YYşyJ‚ ¢¢.KˆŞKº^‹Øj™şX;jÎKº>i»şy»Nš9¾ZX;’#°¢&WGW&â€¢Æ'F–6ÆR6Æ74æÖS×¶6æF–FFRÖ6&BG·6VÆV7FVBò'6VÆV7FVB"¢"'ÖÓà¢ÆF—b6Æ74æÖSÒ&6æF–FFR×&æ²#ã·&æ·ÓÂöF—cà¢ÆF—b6Æ74æÖSÒ&6æF–FFRÖÖ–â#ãÆF—b6Æ74æÖSÒ&FW7F–æF–öâ#ãÇ7ãç¶6æF–FFRç–ÆöBæVÖö¦—ÓÂ÷7ããÆF—cãÆƒ3ç¶6æF–FFRæFW7F–æF–öçÓÂöƒ3ãÇç¶6æF–FFRç–ÆöBæ6÷VçG'—Ò+r·6VÆV7FVD—'÷'BææÖWŞûÈ‡·6VÆV7FVD—'÷'Bæ6öFWŞûÈ“Â÷ãÂöF—cãÂöF—cãÇ6Æ74æÖSÒ&6æF–FFRÖæ÷FR#ç¶6æF–FFRç–ÆöBææ÷FWÓÂ÷ãÆF—b6Æ74æÖSÒ'&÷WFRÖ6†ö–6W2#ãÆF—cãÆ#îh«^˜NY:®[ª~j™şZCÂö#ãÇ7ãç¶—'÷'G2æÖ‚†—'÷'B’ÓâÆ'WGFöâ¶W“×¶—'÷'Bæ6öFWÒG—SÒ&'WGFöâ"6Æ74æÖS×¶—'÷'Bæ6öFRÓÓÒ6VÆV7FVD—'÷'Bæ6öFRò'6VÆV7FVB"¢"'Òöä6Æ–6³×²‚’Óâ6WD—'÷'D6öFR†—'÷'Bæ6öFR—Óç¶—'÷'BææÖWÓÇ6ÖÆÃç¶—'÷'Bæ6öFWÓÂ÷6ÖÆÃãÂö'WGFöãâ—ÓÂ÷7ããÂöF—cãÆF—cãÆ#ç¶6æF–FFRç–ÆöBæFFTÖöFRÓÓÒ&W†7B"ò.hÈ~Zé®iz^iÉşhé.zÊÎKˆûÉ¾X[nK¹niz^iÉşKéŞXÛ>i˜.zZX;hé.[¨ò"¢.Kˆ{XNjŠ{8®iz^iÉşˆz®X¹^iú^X;ûÈÎYNyºîy¨NYËXˆnXŠ^hé.YÒ'ÓÂö#ãÇ7ãç·f—6–&ÆU&æ¶VDFFW2æÖ‚†÷F–öâ’Óâ²6öç7BÆ—fU&æ²Òf—6–&ÆU&æ¶VDFFW2æf–ÇFW"‚†6æF–FFTFFR’Óâ6æF–FFTFFRçV÷FRç7FGW2ÓÓÒ&Æ—fR"’æf–æD–æFW‚‚†6æF–FFTFFR’Óâ6æF–FFTFFRæFW'GW&TFFRÓÓÒ÷F–öâæFW'GW&TFFRbb6æF–FFTFFRç&WGW&äFFRÓÓÒ÷F–öâç&WGW&äFFR’²²6öç7B÷F–öä¶W’ÒG¶÷F–öâæFW'GW&TFFWÓ¢G¶÷F–öâç&WGW&äFFWÖ²6öç7B÷F–öäÆ&VÂÒ÷F–öâæÖF6…G—RÓÓÒ&W†7B"ò.hÈ~Zé®iz^iÉò"¢÷F–öâçV÷FRç7FGW2ÓÓÒ&ÆöF–ær"ò.iú^X;KŠÒ"¢÷F–öâçV÷FRç7FGW2ÓÓÒ&Æ—fR"òzÊÂG¶Æ—fU&æ·ÒYÒ+rG¶ÖöæW’†÷F–öâçV÷FRç&–6RóòçVÆÂ—Ö¢÷F–öâçV÷FRç7FGW2ÓÓÒ&æõöF—&V7B"ò.k).iÈy»Nš9²"¢÷F–öâçV÷FRç7FGW2ÓÓÒ&æõ÷&W7VÇG2"ò.k).iÈXúşYJîˆŠ®xúÒ"¢.iú^X;ZKiYr#²&WGW&âÆ'WGFöâ¶W“×¶÷F–öä¶W—ÒG—SÒ&'WGFöâ"6Æ74æÖS×¶G¶÷F–öä¶W’ÓÓÒ6VÆV7FVDFFT¶W’ò'6VÆV7FVB"¢"'ÒG¶÷F–öâçV÷FRç7FGW2ÓÓÒ&Æ—fR"ò&f–Æ&ÆR"¢'Væf–Æ&ÆR'ÖÒöä6Æ–6³×²‚’Óâ6WE6VÆV7FVDFFT¶W’†÷F–öä¶W’—ÓãÇ6ÖÆÃç¶÷F–öäÆ&VÇÓÂ÷6ÖÆÃç¶f÷&ÖDFFR†÷F–öâæFW'GW&TFFR—Ş(	7¶f÷&ÖDFFR†÷F–öâç&WGW&äFFR—ÓÂö'WGFöãã²Ò—ÓÂ÷7ããÂöF—cãÂöF—cãÆF—b6Æ74æÖSÒ'&V6öâÖÆ—7B#ç¶F—7Æ–VEV÷FRç7FGW2ÓÓÒ&æõöF—&V7B"ÇÂF—7Æ–VEV÷FRç7FGW2ÓÓÒ&æõ÷&W7VÇG2"òÃãÇ7ãî)ÉR¶Æ—fTFFT6÷VçBò.yºîX˜Ş˜Xùny¨Niz^iÉşk).iÈzÊnYj)ŞK»ny¨NˆŠ®xúÒ"¢.Kˆ{XNiz^iÉş˜;Şk).iÈzÊnYj)ŞK»ny¨NXúşYJîˆŠ®xúÒ'ÓÂ÷7ããÇ6ÖÆÃç¶Æ—fTFFT6÷VçBò.Š¸¾˜Kˆ®ikj‰iÈXÛ>i˜.X;jÎy¨Ni»şKº>iz^iÉşûÉ¾yºîy¨NYËiÊÎ‹ª¾K¸ŞxKniÈiX8""¢.˜	Xú®Kº>ŠyºîX˜ŞKˆ{XNiz^iÉşy¨Niú^X;{YiéÎûÈÎKˆŞKº>Ši[Një^jŠ{8®iÉş™i>ZèÎXZk).iÈxúŞj™ş8"'ÓÂ÷6ÖÆÃãÂóâ¢Ãç¶6æF–FFRç–ÆöBç&V6öç2æÖ‚‡&V6öâ’ÓâÇ7â¶W“×·&V6öçÓî)É2·&V6öçÓÂ÷7ãâ—ÓÇ6ÖÆÃç¶F—7Æ–VEV÷FRç7FGW2ÓÓÒ&ÆöF–ær"ò.jÚ>YÊYÎi˜.iú^Šš.Kˆ{XNiz^iÉşKŠn˜xŞikhé.YŞ8""¢.[{.KéŞ˜	X¾yºîy¨NYËy¨NXÛ>i˜.XúşYJîzZX;ZèÎh‰iz^iÉşhé.YŞ8"'ÓÂ÷6ÖÆÃãÂóçÓÂöF—cãÆF—b6Æ74æÖSÒ'Fr×&÷r#ç¶6æF–FFRç–ÆöBç7G–ÆW2ç6Æ–6RƒÂ2’æÖ‚‡7G–ÆR’ÓâÇ7â¶W“×·7G–ÆWÓç·7G–ÆW2æf–æB‚†—FVÒ’Óâ—FVÒæ–BÓÓÒ7G–ÆR“òæÆ&VÂÇÂ7G–ÆWÓÂ÷7ãâ—ÓÂöF—cãÂöF—cà¢ÆF—b6Æ74æÖSÒ&f—B×66÷&R#ãÇ7ãç·6öÆòò.X¾K«®XşZ[ŞXˆni[‚"¢.YÉš¹NXşZ[ŞXˆni[‚'ÓÂ÷7ããÇ7G&öæsç¶6æF–FFRæf—E66÷&WÓÇ6ÖÆÃâóÂ÷6ÖÆÃãÂ÷7G&öæsãÆ“ãÆ"7G–ÆS×·²v–GFƒ¢G¶6æF–FFRæf—E66÷&WÒV×ÒóãÂö“ãÂöF—cà¢ÆF—b6Æ74æÖSÒ&6æF–FFRÖ7F–öâ#ãÇ7ãç¶6æF–FFRç–ÆöBæÖ…7F÷2ÓÓÒò.jøşK«®KènY¹îy»Nš9¾XÛ>i˜.X;’"¢.jøşK«®KènY¹îXÛ>i˜.X;’'ÓÂ÷7ããÇ7G&öær6Æ74æÖS×¶F—7Æ–VEV÷FRç7FGW2ÓÓÒ&Æ—fR"ò""¢'VçfW&–f–VB×&–6R'Óç·V÷FUF—FÆWÓÂ÷7G&öæsãÇ6ÖÆÃç·V÷FTæ÷FWÓÆ'"óç·6VÆV7FVD—'÷'Bæ6öFWÒ+r¶f÷&ÖDFFR‡6VÆV7FVDFFRæFW'GW&TFFR—Ş(	7¶f÷&ÖDFFR‡6VÆV7FVDFFRç&WGW&äFFR—ÓÂ÷6ÖÆÃãÆ6Æ74æÖSÒ&'W’ÖÆ–æ²"‡&Vc×¶F—7Æ–VEV÷FRæ&öö¶–æuW&ÂÇÂfÆ–v‡EW&ÇÒF&vWCÒ%ö&Ææ²"&VÃÒ&æö÷VæW"æ÷&VfW'&W"#ç¶F—7Æ–VEV÷FRç7FGW2ÓÓÒ&æõöF—&V7B"ÇÂF—7Æ–VEV÷FRç7FGW2ÓÓÒ&æõ÷&W7VÇG2"ò.YÊ‚vöövÆRfÆ–v‡G2iú^yÈ¾y»˜Kiz^iÉò"¢.YÊ‚vöövÆRfÆ–v‡G2™h¾YYş˜	{XNˆŠ®xúÒ'Ò(isÂöãÆ'WGFöâG—SÒ&'WGFöâ"F—6&ÆVC×¶'W7’ÇÂF—7Æ–VEV÷FRç7FGW2ÓÒ&Æ—fR'Òöä6Æ–6³×²‚’Óâfö–Böä6†ö÷6R‚—Óç¶F—7Æ–VEV÷FRç7FGW2ÓÒ&Æ—fR"ò.iú^X‹XúşYJîzZX;[èÎh˜Şˆ;Ş˜i8r"¢6VÆV7FVBò6öÆòò.[{.iKn‰xò)É2"¢.[{.h©^˜	zZ‚)É>8›¹îi8®Xùnkh‚"¢6öÆòò.iKn‰xş˜	X¾[»®ŠÛ"¢.h©^{Zn˜	X¾˜šR'ÓÂö'WGFöããÂöF—cà¢Âö'F–6ÆSà¢“°§Ğ ¦gVæ7F–öâfö÷FW"‚’°¢&WGW&âÆfö÷FW#ãÇ7â6Æ74æÖSÒ&fö÷FW"Ö'&æB#î™ªš9³Â÷7ããÇäÄ”äRyJKènˆ®ZJûÈÎ™ªš9¾yJKènh›îX‹X[YÎzÙNj8#Â÷ãÇ7ãîzZX;ˆˆ~‹;Î‹+~yKZIn˜:ˆŠ®xúŞ[›>XûhùKé³Â÷7ããÂöfö÷FW#ã°§Ğ ¦gVæ7F–öâÆöF–æu67&VVâ‚’°¢&WGW&âÆÖ–â6Æ74æÖSÒ&ÆöF–ær×67&VVâ#ãÇ7â6Æ74æÖSÒ&'&æBÖÖ&²#ãÇ7âóãÂ÷7ããÆ#îjÚ>YÊi[Nynix^ŠÎKªN™¸cÂö#ãÆ’óãÂöÖ–ãã°§Ğ
+      <div className="topbar-note"><span className="live-dot" /> Cloudflare å®‰å…¨å„²å­˜</div>
+      {workspaceKind && <button className="ghost-button" type="button" onClick={() => workspaceKind === "solo" ? onHome() : void onMyGroups()}>{workspaceKind === "solo" ? "å›åˆ°é¦–é " : "æˆ‘çš„æ—…åœ˜"}</button>}
+    </header>
+  );
+}
+
+function Landing({ entryMode, setEntryMode, showCreate, setShowCreate, recentGroups, busy, onStartSolo, onCreate, onOpen }: {
+  entryMode: EntryMode;
+  setEntryMode: (mode: EntryMode) => void;
+  showCreate: boolean;
+  setShowCreate: (value: boolean) => void;
+  recentGroups: GroupListItem[];
+  busy: boolean;
+  onStartSolo: () => Promise<void>;
+  onCreate: (payload: Record<string, unknown>) => Promise<GroupDetail | null>;
+  onOpen: (code: string) => Promise<void>;
+}) {
+  return (
+    <>
+      <section className="hero">
+        <div className="hero-copy">
+          <div className="eyebrow"><span /> ä¸ç”¨å…ˆæ±ºå®šå»å“ªè£¡</div>
+          <h1>æƒ³é£›ï¼Œ<br /><em>å…ˆæ‰¾å¾—åˆ°äº¤é›†ã€‚</em></h1>
+          <p>ä¸€å€‹äººå¯ä»¥å…ˆæ‰¾æ—…è¡Œéˆæ„Ÿï¼›ä¸€ç¾¤äººå¯ä»¥å„è‡ªç§ä¸‹å¡«æ—¥æœŸã€é ç®—èˆ‡åå¥½ã€‚éš¨é£›è² è²¬æŠŠèŠå¤©è®Šæˆä¸‰å€‹çœŸæ­£èƒ½è¨è«–çš„å…±åŒç­”æ¡ˆã€‚</p>
+          <div className="entry-picker" role="tablist" aria-label="é¸æ“‡é–‹å§‹æ–¹å¼">
+            <button className={entryMode === "solo" ? "active" : ""} type="button" role="tab" aria-selected={entryMode === "solo"} onClick={() => { setEntryMode("solo"); setShowCreate(false); }}>
+              <span>01</span><b>æˆ‘æƒ³å‡ºå»</b><small>å…ˆæ›¿è‡ªå·±æ‰¾æ—¥æœŸèˆ‡æ–¹å‘</small>
+            </button>
+            <button className={entryMode === "group" ? "active" : ""} type="button" role="tab" aria-selected={entryMode === "group"} onClick={() => { setEntryMode("group"); setShowCreate(false); }}>
+              <span>02</span><b>æˆ‘å€‘æƒ³å‡ºå»</b><small>å…ˆæ¹Šåœ˜ï¼Œå†æ‰¾å…±åŒç­”æ¡ˆ</small>
+            </button>
+          </div>
+          <button className="primary-button hero-action" disabled={busy} type="button" onClick={() => entryMode === "solo" ? void onStartSolo() : setShowCreate(true)}>
+            {busy && entryMode === "solo" ? "æ­£åœ¨é–‹å•Ÿæœå°‹â€¦" : entryMode === "solo" ? "ç›´æ¥é–‹å§‹æœå°‹" : "å»ºç«‹ä¸€å€‹æ–°æ—…åœ˜"}<span>â†’</span>
+          </button>
+          <div className="trust-row"><span>ä¸ç”¨ç™»å…¥</span><span>ä¸å…¬é–‹å€‹äººé ç®—</span><span>ä¸ç”¨å…ˆæŒ‡å®šç›®çš„åœ°</span><span>çµæœæœ€å¤š 3 å€‹</span></div>
+        </div>
+
+        {showCreate && entryMode === "group" ? (
+          <CreatePanel busy={busy} onCancel={() => setShowCreate(false)} onCreate={onCreate} />
+        ) : (
+          <PreviewCard />
+        )}
+      </section>
+
+      <section className="recent-section" id="my-groups">
+          <div className="section-heading"><div><span className="section-kicker">ä½ çš„æ—…ç¨‹</span><h2>ç¹¼çºŒä¸Šæ¬¡çš„æ—…åœ˜</h2></div></div>
+          {recentGroups.length > 0 ? <div className="recent-grid">
+            {recentGroups.map((group) => (
+              <button key={group.id} type="button" onClick={() => void onOpen(group.inviteCode)}>
+                <span className={`status-pill ${group.status}`}>{statusLabels[group.status] || group.status}</span>
+                <b>{group.name}</b><small>å°ˆå±¬é€£çµ Â· {group.inviteCode.slice(0, 6)}â€¦</small><i>â†’</i>
+              </button>
+            ))}
+          </div> : <div className="empty-result"><span>ï¼‹</span><h3>é‚„æ²’æœ‰åŠ å…¥ä»»ä½•æ—…åœ˜</h3><p>å»ºç«‹æ–°æ—…åœ˜æˆ–æ‰“é–‹æœ‹å‹åˆ†äº«çš„é€£çµå¾Œï¼Œæœƒå‡ºç¾åœ¨é€™è£¡ã€‚</p></div>}
+      </section>
+
+      <section className="principles-section">
+        <article><span>01</span><h3>å…ˆéæ˜ç¢ºæ¢ä»¶</h3><p>æ—¥æœŸã€ç›®çš„åœ°ç¯„åœã€å‡ºç™¼åœ°å’Œå¤©æ•¸å…ˆå–äº¤é›†ï¼›ç¥¨åƒ¹èˆ‡ç›´é£›ä¾›çµ¦åˆ°å³æ™‚æŸ¥ç¥¨é ç¢ºèªã€‚</p></article>
+        <article><span>02</span><h3>ç…§é¡§æœ€ä¸æ»¿æ„çš„äºº</h3><p>ä¸æ˜¯å–®ç´”å¤šæ•¸æ±ºï¼›é©é…åº¦åŒæ™‚çœ‹å¹³å‡èˆ‡æœ€ä½åˆ†ï¼Œé¿å…æœ‰äººè¢«çŠ§ç‰²ã€‚</p></article>
+        <article><span>03</span><h3>å³æ™‚æŸ¥åƒ¹å†è³¼è²·</h3><p>ç«™å…§ä¸å‡è£ç¥¨åƒ¹ä¸æœƒè®Šï¼›é»æ“Šå¾Œå¸¶å®Œæ•´æ—¥æœŸèˆ‡æ©Ÿå ´åˆ°å¤–éƒ¨å³æ™‚æœå°‹åŠè³¼è²·ã€‚</p></article>
+      </section>
+      <Footer />
+    </>
+  );
+}
+
+function CreatePanel({ busy, onCancel, onCreate }: {
+  busy: boolean;
+  onCancel: () => void;
+  onCreate: (payload: Record<string, unknown>) => Promise<GroupDetail | null>;
+}) {
+  const [name, setName] = useState("é€±æœ«é€ƒè·‘å±€");
+  const [displayName, setDisplayName] = useState("");
+
+  function submit(event: FormEvent) {
+    event.preventDefault();
+    void onCreate({ action: "create", kind: "group", name, displayName });
+  }
+
+  return (
+    <form className="create-panel" onSubmit={submit}>
+      <div className="panel-top"><div><span className="section-kicker">å»ºç«‹å¤šäººæ—…åœ˜</span><h2>å…ˆæŠŠæ—…åœ˜å»ºèµ·ä¾†</h2></div><button type="button" onClick={onCancel} aria-label="é—œé–‰">Ã—</button></div>
+      <label>åç¨±<input value={name} maxLength={48} onChange={(event) => setName(event.target.value)} required /></label>
+      <label>å¤§å®¶æ€éº¼ç¨±å‘¼ä½ <input value={displayName} maxLength={30} onChange={(event) => setDisplayName(event.target.value)} placeholder="å¯ç•™ç©ºï¼Œä½¿ç”¨ç™»å…¥åç¨±" /></label>
+      <div className="create-explainer"><span>1</span><p>å»ºç«‹å¾Œå…ˆå¡«è‡ªå·±çš„æ¢ä»¶ã€‚</p><span>2</span><p>æŠŠå°ˆå±¬é€£çµä¸Ÿåˆ° LINEã€‚</p></div>
+      <button className="primary-button" disabled={busy} type="submit">{busy ? "æ­£åœ¨å»ºç«‹â€¦" : "å»ºç«‹ä¸¦å¡«å¯«æ¢ä»¶"}</button>
+      <p className="micro-copy">è³‡æ–™æœƒä¿å­˜åœ¨ Cloudflare D1ï¼›ç²¾ç¢ºé ç®—åªç”¨ä¾†è¨ˆç®—ï¼Œä¸æœƒé¡¯ç¤ºçµ¦å…¶ä»–æˆå“¡ã€‚</p>
+    </form>
+  );
+}
+
+function PreviewCard() {
+  return (
+    <aside className="preview-card">
+      <div className="paper-tape" />
+      <span className="section-kicker">æ—…åœ˜ç¾…ç›¤</span>
+      <div className="preview-title"><div><h2>é€±æœ«é€ƒè·‘å±€</h2><p>4 ä½æ—…ä¼´ Â· ç­‰å¾… 1 äºº</p></div><span className="status-pill matching">è¨ˆç®—ä¸­</span></div>
+      <div className="avatar-row"><span>J</span><span>å®‰</span><span>M</span><span className="pending">å“²</span></div>
+      <div className="preview-score"><strong>92<small>/100</small></strong><div><b>ç›®å‰å…±åŒåå¥½åˆ†æ•¸</b><p>æ—¥æœŸäº¤é›† 12 å¤© Â· é ç®—äº¤é›†æˆç«‹</p></div></div>
+      <dl><div><dt>ç¡¬æ¢ä»¶</dt><dd>ç›´é£› Â· 4â€“6 å¤© Â· ä¸ç´…çœ¼</dd></div><div><dt>å…±åŒåå¥½</dt><dd>æµ·é‚Š Â· ç¾é£Ÿ Â· å°‘ç§»å‹•</dd></div><div><dt>ä¸‹ä¸€æ­¥</dt><dd>ç­‰é˜¿å“²å¡«å®Œå°±ç”¢ç”Ÿç­”æ¡ˆ</dd></div></dl>
+      <div className="privacy-strip">æ¯å€‹äººåªæœƒçœ‹è¦‹è‡ªå·±çš„ç²¾ç¢ºé ç®—</div>
+    </aside>
+  );
+}
+
+function GroupWorkspace({ detail, busy, onAction, onRemoveGroup, onShare }: {
+  detail: GroupDetail;
+  busy: boolean;
+  onAction: (payload: Record<string, unknown>) => Promise<GroupDetail | null>;
+  onRemoveGroup: (action: "leave" | "disband", code: string) => Promise<boolean>;
+  onShare: () => Promise<void>;
+}) {
+  const solo = detail.group.kind === "solo";
+  const [showCalculation, setShowCalculation] = useState(false);
+  const allReady = detail.summary.total > 0 && detail.summary.completed === detail.summary.total;
+  const isOwner = detail.members.some((member) => member.userId === detail.currentUser.id && member.role === "owner");
+  const hasDateOverlap = !detail.summary.windowStart || !detail.summary.windowEnd || detail.summary.windowStart <= detail.summary.windowEnd;
+  const searchFinished = detail.group.status === "matching" || detail.group.status === "decided";
+  const selected = detail.candidates.find((candidate) => candidate.id === detail.group.selectedCandidateId);
+  const myVotes = new Set(detail.voting.myCandidateIds);
+  return (
+    <>
+      <section className="workspace-head">
+        <div><span className="section-kicker">{solo ? "å€‹äººæ—…è¡Œæœå°‹" : "å°ˆå±¬é€£çµæ—…åœ˜"}</span><h1>{solo ? "æ‰¾ä¸€è¶Ÿé©åˆç¾åœ¨çš„æ—…è¡Œ" : detail.group.name}</h1><p>{solo ? "å¡«å…¥å½ˆæ€§æ—¥æœŸã€é ç®—èˆ‡æƒ³å»çš„ç¯„åœï¼Œç›´æ¥å–å¾—ä¸‰å€‹å»ºè­°" : `${detail.summary.completed} / ${detail.summary.total} äººæº–å‚™å¥½ Â· ${statusLabels[detail.group.status]} Â· æœ‰é€£çµéš¨æ™‚å¯åŠ å…¥`}</p></div>
+        {!solo && isOwner && <button className="share-button" type="button" onClick={() => void onShare()}><span>â†—</span> åˆ†äº«å”¯ä¸€é€£çµ</button>}
+      </section>
+
+      <section className={`workspace-grid ${solo ? "solo" : ""}`}>
+        {!solo && <aside className="members-panel">
+          <div className="panel-label"><span>æ—…åœ˜æˆå“¡</span><b>{detail.summary.completed}/{detail.summary.total}</b></div>
+          <div className="progress-track"><i style={{ width: `${detail.summary.total ? (detail.summary.completed / detail.summary.total) * 100 : 0}%` }} /></div>
+          <div className="member-list">
+            {detail.members.map((member) => (
+              <div className="member-row" key={member.userId}>
+                <span className="member-avatar">{member.displayName.slice(0, 1).toUpperCase()}</span>
+                <div><b>{member.displayName}{member.userId === detail.currentUser.id ? " Â· ä½ " : ""}</b><small>{member.responseState === "complete" ? member.styles.slice(0, 2).map((style) => styles.find((item) => item.id === style)?.label).filter(Boolean).join(" Â· ") || "æ¢ä»¶å·²ç¢ºèª" : "ç­‰å¾…å¡«å¯«ä¸¦ç¢ºèª"}</small></div>
+                <span className={`member-state ${member.responseState}`}>{member.responseState === "complete" ? "æº–å‚™å¥½" : "å¾…ç¢ºèª"}</span>
+              </div>
+            ))}
+          </div>
+          {detail.candidates.length > 0 && <VoteSummary detail={detail} />}
+          {detail.isMember && <div className="group-management"><span>{isOwner ? "åœ˜ä¸»æ¬Šé™" : "æˆå“¡é¸é …"}</span><p>{isOwner ? "åªæœ‰ä½ èƒ½é–‹å§‹æ‰¾ç¥¨æˆ–è§£æ•£é€™å€‹æ—…åœ˜ã€‚" : "ä½ å¯ä»¥æŸ¥çœ‹åœ˜ä¸»ç”¢ç”Ÿçš„çµæœã€è¤‡é¸æŠ•ç¥¨æˆ–é€€å‡ºã€‚"}</p><button className="danger-button" disabled={busy} type="button" onClick={() => { const confirmed = window.confirm(isOwner ? `ç¢ºå®šè¦è§£æ•£ã€Œ${detail.group.name}ã€å—ï¼Ÿæ‰€æœ‰æ¢ä»¶ã€çµæœèˆ‡ç¥¨æ•¸éƒ½æœƒæ°¸ä¹…åˆªé™¤ã€‚` : `ç¢ºå®šè¦é€€å‡ºã€Œ${detail.group.name}ã€å—ï¼Ÿ`); if (confirmed) void onRemoveGroup(isOwner ? "disband" : "leave", detail.group.inviteCode); }}>{busy ? "è™•ç†ä¸­â€¦" : isOwner ? "è§£æ•£æ—…åœ˜" : "é€€å‡ºæ—…åœ˜"}</button></div>}
+          <p className="privacy-note">{isOwner ? "ä½¿ç”¨ä¸Šæ–¹ã€Œåˆ†äº«å”¯ä¸€é€£çµã€é‚€è«‹æ—…ä¼´ï¼›æ–°æˆå“¡åŠ å…¥å¾Œæœƒé‡æ–°ç­‰å¾…å…¨å“¡ç¢ºèªã€‚" : "çµæœç”¢ç”Ÿå¾Œï¼Œåœ˜å“¡åªèƒ½æŸ¥çœ‹ã€è¤‡é¸æŠ•ç¥¨æˆ–é€€å‡ºæ—…åœ˜ã€‚"} å…¶ä»–æˆå“¡çœ‹ä¸åˆ°ä½ çš„ç²¾ç¢ºé ç®—ã€ç¦å¿Œæˆ–å€‹åˆ¥åˆ†æ•¸ã€‚</p>
+        </aside>}
+
+        <div className="workspace-main">
+          {!detail.isMember ? (
+            <JoinPanel detail={detail} busy={busy} onAction={onAction} />
+          ) : (
+            <>
+              {(solo || !detail.myIntent) && <IntentForm detail={detail} busy={busy} onAction={onAction} />}
+              {detail.myIntent && <div className={solo ? "solo-results" : ""}>
+                <GroupSummary detail={detail} solo={solo} />
+                {!solo && !allReady && <div className="empty-result"><span>â—·</span><h3>ç­‰å¤§å®¶éƒ½å‹¾é¸ã€Œæˆ‘æº–å‚™å¥½äº†ã€</h3><p>ç›®å‰ {detail.summary.completed}/{detail.summary.total} äººæº–å‚™å®Œæˆã€‚ç¾¤çµ„ä¸æœƒé–å®šï¼Œä»å¯ç¹¼çºŒåˆ†äº«é€£çµã€åŠ å…¥æ–°æˆå“¡æˆ–ä¿®æ”¹æ¢ä»¶ã€‚</p></div>}
+                {!solo && allReady && !hasDateOverlap && <div className="empty-result"><span>â†”</span><h3>å¤§å®¶çš„æ—¥æœŸæ²’æœ‰äº¤é›†</h3><p>å…±åŒæœ€æ—©å¯å‡ºç™¼æ˜¯ {formatFullDate(detail.summary.windowStart)}ï¼Œä½†å…±åŒæœ€æ™šå›ç¨‹æ˜¯ {formatFullDate(detail.summary.windowEnd)}ã€‚è«‹è‡³å°‘ä¸€ä½æˆå“¡ä¿®æ”¹æ—¥æœŸä¸¦é‡æ–°å‹¾é¸ã€Œæˆ‘æº–å‚™å¥½äº†ã€ã€‚</p></div>}
+                {!solo && allReady && hasDateOverlap && detail.candidates.length === 0 && !searchFinished && isOwner && <div className="ready-search"><span className="section-kicker">å…¨å“¡æº–å‚™å®Œæˆ</span><h2>ç¾åœ¨æ‰é–‹å§‹æ‰¾å…±åŒèˆªç­</h2><p>åªæœ‰åœ˜ä¸»å¯ä»¥ä¾ç›®å‰æ‰€æœ‰äººçš„æ—¥æœŸã€é ç®—ã€ç›®çš„åœ°èˆ‡èˆªç­æ¢ä»¶ç”¢ç”Ÿçµæœï¼›æ‰¾å®Œå¾Œç¾¤çµ„ä»ä¿æŒé–‹æ”¾ã€‚</p><button className="primary-button" disabled={busy} type="button" onClick={() => void onAction({ action: "search", code: detail.group.inviteCode })}>{busy ? "æ­£åœ¨æ‰¾å…±åŒèˆªç­â€¦" : "é–‹å§‹æ‰¾ç¥¨"}<span>â†’</span></button></div>}
+                {!solo && allReady && hasDateOverlap && detail.candidates.length === 0 && !searchFinished && !isOwner && <div className="empty-result"><span>â—·</span><h3>ç­‰å¾…åœ˜ä¸»é–‹å§‹æ‰¾ç¥¨</h3><p>å¤§å®¶éƒ½å·²ç¶“æº–å‚™å®Œæˆã€‚çµæœç”±åœ˜ä¸»çµ±ä¸€ç”¢ç”Ÿï¼Œä¹‹å¾Œä½ å¯ä»¥æŸ¥çœ‹å³æ™‚ç¥¨åƒ¹ä¸¦è¤‡é¸æŠ•ç¥¨ã€‚</p></div>}
+                {(solo || detail.candidates.length > 0 || (!solo && searchFinished)) && <>
+                <div className="result-heading"><div><span className="section-kicker">{solo ? "ä½ çš„æœå°‹çµæœ" : "å…±åŒç­”æ¡ˆ"}</span><h2>{detail.candidates.length ? `å…ˆåˆ— ${detail.candidates.length} å€‹åå¥½å€™é¸ï¼ŒæŸ¥åˆ°ç¥¨åƒ¹æ‰æˆç«‹` : solo ? "ç›®å‰æ²’æœ‰ç¬¦åˆæ¢ä»¶çš„ç›®çš„åœ°" : "ç›®å‰æ²’æœ‰å®Œæ•´äº¤é›†"}</h2></div><div className="result-tools"><button className="text-button" type="button" aria-expanded={showCalculation} onClick={() => setShowCalculation((current) => !current)}>{showCalculation ? "æ”¶èµ·èªªæ˜" : "å¦‚ä½•è¨ˆç®—ï¼Ÿ"}</button>{!solo && isOwner && detail.candidates.length > 0 && <button className="recalculate-button" disabled={busy} type="button" onClick={() => { if (window.confirm("é‡æ–°æ‰¾ç¥¨æœƒä¾ç›®å‰æ¢ä»¶é‡å»ºå€™é¸ï¼Œä¸¦æ¸…é™¤ç¾æœ‰ç¥¨æ•¸ã€‚ç¢ºå®šç¹¼çºŒå—ï¼Ÿ")) void onAction({ action: "search", code: detail.group.inviteCode }); }}>{busy ? "é‡æ–°è¨ˆç®—ä¸­â€¦" : "åœ˜ä¸»é‡æ–°æ‰¾ç¥¨"}</button>}</div></div>
+                {showCalculation && <CalculationPanel solo={solo} />}
+                {detail.candidates.length ? (
+                  <>
+                  <div className="candidate-list">
+                    {detail.candidates.map((candidate, index) => (
+                      <CandidateCard key={candidate.id} candidate={candidate} rank={index + 1} solo={solo} selected={solo ? candidate.id === detail.group.selectedCandidateId : myVotes.has(candidate.id)} busy={busy} origin={detail.myIntent?.origins[0] || candidate.payload.origins[0]} adults={candidate.payload.origins.length === 1 ? detail.members.length : 1} onChoose={() => onAction(solo ? { action: "decide", code: detail.group.inviteCode, candidateId: candidate.id } : { action: "vote", code: detail.group.inviteCode, candidateId: candidate.id, selected: !myVotes.has(candidate.id) })} />
+                    ))}
+                  </div>
+                  </>
+                ) : (
+                  <div className="empty-result"><span>â†”</span><h3>{solo ? "ç›®å‰æ‰¾ä¸åˆ°ç¬¦åˆæ¢ä»¶çš„ç›®çš„åœ°" : "æ¢ä»¶é‚„æ²’æœ‰é‡ç–Š"}</h3><p>{solo ? "ç³»çµ±ä¸æœƒæ‹¿ç¯„åœå¤–çš„åŸå¸‚æ¹Šç­”æ¡ˆã€‚å¯ä»¥æ”¾å¯¬ç›®çš„åœ°ã€æ—¥æœŸæˆ–å¤©æ•¸å¾Œé‡æ–°æœå°‹ã€‚" : "ç³»çµ±ä¸æœƒæ‹¿ç¯„åœå¤–çš„åŸå¸‚æ¹Šç­”æ¡ˆã€‚å¸¸è¦‹åŸå› æ˜¯åœ˜å“¡ç›®çš„åœ°æ²’æœ‰äº¤é›†ï¼Œæˆ–æ—¥æœŸä¸è¶³ä»¥å®¹ç´æ—…è¡Œå¤©æ•¸ï¼›è«‹èª¿æ•´å…¶ä¸­ä¸€é …å†é‡æ–°è¨ˆç®—ã€‚"}</p></div>
+                )}
+                {solo && selected && <div className="decision-banner"><span>âœ“</span><div><b>å·²æ”¶è—ï¼š{selected.destination}</b><p>{formatDate(selected.departureDate)} â€” {formatDate(selected.returnDate)}ï¼Œä»éœ€åœ¨è³¼è²·å‰å®Œæˆå³æ™‚é©—åƒ¹ã€‚</p></div></div>}
+                </>}
+                {!solo && (!searchFinished || isOwner) && <details className="edit-intent"><summary>ä¿®æ”¹æˆ‘çš„æ¢ä»¶</summary><IntentForm detail={detail} busy={busy} onAction={onAction} compact /></details>}
+              </div>}
+            </>
+          )}
+        </div>
+      </section>
+      <Footer />
+    </>
+  );
+}
+
+function JoinPanel({ detail, busy, onAction }: { detail: GroupDetail; busy: boolean; onAction: (payload: Record<string, unknown>) => Promise<GroupDetail | null> }) {
+  const [displayName, setDisplayName] = useState(detail.currentUser.displayName);
+  return (
+    <div className="form-card join-panel"><span className="section-kicker">å…ç™»å…¥ãƒ»é€£çµåŠ å…¥</span><h2>æœ‰é€™æ¢é€£çµï¼Œå°±èƒ½åŠ å…¥ã€Œ{detail.group.name}ã€</h2><p>ä¸éœ€è¦ä»»ä½•å¸³è™Ÿã€‚å¡«ä¸€å€‹æš±ç¨±å¾Œï¼Œå°±èƒ½æäº¤è‡ªå·±çš„æ—¥æœŸã€é ç®—èˆ‡åå¥½ï¼Œå’Œå¤§å®¶ä¸€èµ·çœ‹äº¤é›†ã€é¸å…±åŒç­”æ¡ˆï¼›ç²¾ç¢ºé ç®—ä¸æœƒå…¬é–‹ã€‚</p><label>æ—…ä¼´æ€éº¼ç¨±å‘¼ä½ <input value={displayName} onChange={(event) => setDisplayName(event.target.value)} maxLength={30} placeholder="ä¾‹å¦‚ï¼šå°å®‰" /></label><button className="primary-button" disabled={busy} type="button" onClick={() => void onAction({ action: "join", code: detail.group.inviteCode, displayName })}>{busy ? "æ­£åœ¨åŠ å…¥â€¦" : "ç”¨é€™å€‹æš±ç¨±åŠ å…¥è¨è«–"}</button><p className="link-access-note">æ­¤é€£çµç›¸ç•¶æ–¼æ—…åœ˜é€šè¡Œè­‰ï¼Œè«‹åªåˆ†äº«çµ¦æƒ³ä¸€èµ·åƒèˆ‡çš„äººã€‚</p></div>
+  );
+}
+
+function IntentForm({ detail, busy, onAction, compact = false }: { detail: GroupDetail; busy: boolean; onAction: (payload: Record<string, unknown>) => Promise<GroupDetail | null>; compact?: boolean }) {
+  const original = detail.myIntent;
+  const solo = detail.group.kind === "solo";
+  const originalFuzzy = readFuzzyMode(original?.mode);
+  const originalLeave = readLeavePreset(original?.mode);
+  const availableLeavePresets = leavePresets.filter((preset) => preset.end >= dateAfter(0));
+  const initialLeave = originalLeave || availableLeavePresets[0] || leavePresets.at(-1)!;
+  const [displayName, setDisplayName] = useState(detail.currentUser.displayName);
+  const [origin, setOrigin] = useState(original?.origins[0] || "TPE");
+  const [dateMode, setDateMode] = useState<DateMode>(originalLeave ? "leave" : original && !originalFuzzy ? "exact" : original ? "fuzzy" : "leave");
+  const [leavePresetId, setLeavePresetId] = useState<string>(initialLeave.id);
+  const [leaveYear, setLeaveYear] = useState<number>(initialLeave.year);
+  const [fuzzyMonth, setFuzzyMonth] = useState(originalFuzzy?.month || defaultFuzzyMonth());
+  const [fuzzyPeriod, setFuzzyPeriod] = useState(originalFuzzy?.period || "mid");
+  const [windowStart, setWindowStart] = useState(original?.windowStart || dateAfter(14));
+  const [windowEnd, setWindowEnd] = useState(original?.windowEnd || dateAfter(75));
+  const [minNights, setMinNights] = useState(original?.minNights || initialLeave.minNights);
+  const [maxNights, setMaxNights] = useState(original?.maxNights || initialLeave.maxNights);
+  const [budgetMax, setBudgetMax] = useState(original?.budgetMax || 14000);
+  const [baggageKg, setBaggageKg] = useState(original?.baggageKg || 0);
+  const [maxStops, setMaxStops] = useState(original?.maxStops || 0);
+  const [redEyeAllowed, setRedEyeAllowed] = useState(original?.redEyeAllowed || false);
+  const [selectedStyles, setSelectedStyles] = useState<string[]>(original?.styles || ["lazy", "food"]);
+  const [ready, setReady] = useState(solo);
+  const originalContinent = original?.destinations.find((item) => item.startsWith("continent:"))?.split(":")[1] || "";
+  const originalCountry = original?.destinations.find((item) => item.startsWith("country:"))?.split(":")[1] || "";
+  const storedRegion = original?.destinations.find((item) => item.startsWith("region:"))?.split(":")[1] || "";
+  const originalRegion = storedRegion === "northeast_asia"
+    ? "east_asia"
+    : storedRegion === "west_coast"
+      ? originalCountry === "CA" ? "canada" : originalCountry === "US" ? "united_states" : ""
+      : storedRegion === "australia_nz" ? "" : storedRegion;
+  const originalCity = original?.destinations.find((item) => item.startsWith("city:"))?.split(":")[1] || "";
+  const [continent, setContinent] = useState(originalContinent);
+  const [region, setRegion] = useState(originalRegion);
+  const [country, setCountry] = useState(originalCountry);
+  const [city, setCity] = useState(originalCity);
+
+  const availableCountries = countries.filter((item) => {
+    if (region) return item.region === region;
+    return regions.find((candidate) => candidate.id === item.region)?.continent === continent;
+  });
+
+  function toggleStyle(id: string) {
+    setSelectedStyles((current) => current.includes(id) ? current.filter((item) => item !== id) : [...current, id]);
+  }
+
+  function chooseLeavePreset(id: string) {
+    const preset = leavePresets.find((item) => item.id === id);
+    if (!preset) return;
+    setLeavePresetId(id);
+    setMinNights(preset.minNights);
+    setMaxNights(preset.maxNights);
+  }
+
+  function chooseLeaveYear(year: number) {
+    setLeaveYear(year);
+    const firstPreset = availableLeavePresets.find((preset) => preset.year === year);
+    if (firstPreset) chooseLeavePreset(firstPreset.id);
+  }
+
+  function submit(event: FormEvent) {
+    event.preventDefault();
+    const selectedLeave = leavePresets.find((preset) => preset.id === leavePresetId) || initialLeave;
+    const resolvedWindow = dateMode === "leave" ? { start: selectedLeave.start, end: selectedLeave.end } : dateMode === "fuzzy" ? fuzzyWindow(fuzzyMonth, fuzzyPeriod) : { start: windowStart, end: windowEnd };
+    const destinations = [continent && `continent:${continent}`, region && `region:${region}`, country && `country:${country}`, city && `city:${city}`].filter(Boolean);
+    const mode = dateMode === "leave" ? `leave:${selectedLeave.id}` : dateMode === "fuzzy" ? `fuzzy:${fuzzyMonth}:${fuzzyPeriod}` : "exact";
+    void onAction({ action: "intent", code: detail.group.inviteCode, displayName, intent: { mode, origin, windowStart: resolvedWindow.start, windowEnd: resolvedWindow.end, minNights, maxNights, budgetMax, baggageKg, maxStops, redEyeAllowed, styles: selectedStyles, destinations, ready } });
+  }
+
+  return (
+    <form className={`form-card intent-form ${compact ? "compact" : ""}`} onSubmit={submit}>
+      {!compact && <div className="form-intro"><span className="section-kicker">ä½ çš„ç§äººæ¢ä»¶å¡</span><h2>å¡«ä½ çš„åº•ç·šï¼Œä¸ç”¨æ›¿å¤§å®¶çŒœ</h2><p>åªæœ‰å…±åŒäº¤é›†æœƒå‡ºç¾åœ¨åœ˜é«”é é¢ã€‚</p></div>}
+      <div className="form-grid">
+        <label>ä½ çš„ç¨±å‘¼<input value={displayName} onChange={(event) => setDisplayName(event.target.value)} maxLength={30} /></label>
+        <label>å‡ºç™¼æ©Ÿå ´<input value={origin} onChange={(event) => setOrigin(event.target.value.toUpperCase().slice(0, 3))} pattern="[A-Za-z]{3}" placeholder="TPE" required /><small>è«‹è¼¸å…¥ä¸‰ç¢¼æ©Ÿå ´ä»£ç¢¼</small></label>
+        <fieldset className="date-mode-field"><legend>ä»€éº¼æ™‚å€™æƒ³é£›ï¼Ÿ</legend><div className="segmented-control three"><button type="button" className={dateMode === "leave" ? "selected" : ""} onClick={() => setDateMode("leave")}>è«‹å‡æ”»ç•¥</button><button type="button" className={dateMode === "fuzzy" ? "selected" : ""} onClick={() => setDateMode("fuzzy")}>çµ¦å¤§æ¦‚å°±å¥½</button><button type="button" className={dateMode === "exact" ? "selected" : ""} onClick={() => setDateMode("exact")}>æ˜ç¢ºå€é–“</button></div></fieldset>
+        {dateMode === "leave" ? <fieldset className="leave-guide"><legend>å°ç£è«‹å‡æ”»ç•¥ <small>é¸ä¸€å€‹å°±è‡ªå‹•å¸¶å…¥æ—¥æœŸèˆ‡å»ºè­°å¤©æ•¸</small></legend><div className="year-switch">{[2026, 2027].map((year) => <button key={year} type="button" className={leaveYear === year ? "selected" : ""} onClick={() => chooseLeaveYear(year)}>{year}</button>)}</div><div className="leave-preset-grid">{availableLeavePresets.filter((preset) => preset.year === leaveYear).map((preset) => <button key={preset.id} type="button" className={leavePresetId === preset.id ? "selected" : ""} onClick={() => chooseLeavePreset(preset.id)}><span>{preset.tone}</span><b>{preset.title}</b><strong>è«‹ {preset.leaveDays} ä¼‘ {preset.totalDays}</strong><small>{formatDate(preset.start)}â€“{formatDate(preset.end)} Â· è«‹ {preset.leave}</small></button>)}</div><p className="calendar-source">ä¾è¡Œæ”¿é™¢äººäº‹è¡Œæ”¿ç¸½è™•è¾¦å…¬æ—¥æ›†æ•´ç†ï¼›æ°‘é–“ä¼æ¥­ä»ä»¥å…¬å¸åˆ¶åº¦åŠå‹å‹•éƒ¨è¦å®šç‚ºæº–ã€‚<a href={leaveYear === 2026 ? "https://www.dgpa.gov.tw/information?pid=12685&uid=55" : "https://www.dgpa.gov.tw/information?pid=12983&uid=2"} target="_blank" rel="noreferrer">æŸ¥çœ‹å®˜æ–¹æ—¥æ›† â†—</a></p></fieldset> : dateMode === "fuzzy" ? <>
+          <label>æƒ³é£›çš„æœˆä»½<input type="month" value={fuzzyMonth} onChange={(event) => setFuzzyMonth(event.target.value)} required /></label>
+          <label>æœˆä»½å€æ®µ<select value={fuzzyPeriod} onChange={(event) => setFuzzyPeriod(event.target.value)}><option value="full">æ•´å€‹æœˆéƒ½å¯ä»¥</option><option value="early">æœˆåˆï¼ˆ1â€“10 æ—¥ï¼‰</option><option value="mid">æœˆä¸­ï¼ˆ11â€“20 æ—¥ï¼‰</option><option value="late">æœˆåº•ï¼ˆ21 æ—¥â€“æœˆåº•ï¼‰</option><option value="new_year">è·¨å¹´ï¼ˆ12/26â€“1/5ï¼‰</option></select></label>
+        </> : <>
+          <label>æœ€æ—©å¯å‡ºç™¼<input type="date" value={windowStart} onChange={(event) => setWindowStart(event.target.value)} required /></label>
+          <label>æœ€æ™šéœ€å›ä¾†<input type="date" value={windowEnd} min={windowStart} onChange={(event) => setWindowEnd(event.target.value)} required /></label>
+        </>}
+        <label>æœ€å°‘ä½å¹¾æ™š<input type="number" min="2" max="14" value={minNights} onChange={(event) => setMinNights(Number(event.target.value))} required /></label>
+        <label>æœ€å¤šä½å¹¾æ™š<input type="number" min={minNights} max="14" value={maxNights} onChange={(event) => setMaxNights(Number(event.target.value))} required /></label>
+        <label className="budget-field">æ¯äººç¸½é ç®—ä¸Šé™<strong>{money(budgetMax)}</strong><input type="range" min="5000" max="50000" step="500" value={budgetMax} onChange={(event) => setBudgetMax(Number(event.target.value))} /><small>ä½œç‚ºæ¨è–¦æ’åºåƒè€ƒï¼›ä¸ä»¥æœªé©—è­‰ç¥¨åƒ¹æ·˜æ±°ç›®çš„åœ°</small></label>
+        <label>æ‰˜é‹è¡Œæ<select value={baggageKg} onChange={(event) => setBaggageKg(Number(event.target.value))}><option value="0">ä¸éœ€è¦</option><option value="15">è‡³å°‘ 15 kg</option><option value="20">è‡³å°‘ 20 kg</option><option value="23">è‡³å°‘ 23 kg</option></select></label>
+        <label>æœ€å¤šè½‰æ©Ÿ<select value={maxStops} onChange={(event) => setMaxStops(Number(event.target.value))}><option value="0">åªæ¥å—ç›´é£›</option><option value="1">æœ€å¤šä¸€æ¬¡</option><option value="2">æœ€å¤šå…©æ¬¡</option></select></label>
+        <div className="check-label"><input id="red-eye-toggle" aria-label="å¯ä»¥æ­ç´…çœ¼ç­æ©Ÿ" type="checkbox" checked={redEyeAllowed} onChange={(event) => setRedEyeAllowed(event.target.checked)} /><label htmlFor="red-eye-toggle"><b>å¯ä»¥æ­ç´…çœ¼ç­æ©Ÿ</b><small>æœªå‹¾é¸å°±ç•¶ä½œç¡¬æ¢ä»¶</small></label></div>
+      </div>
+      <fieldset className="destination-field"><legend>æƒ³é£›å“ªè£¡ï¼Ÿ <small>ä¾ä½ é¸åˆ°çš„æœ€ç´°å±¤ç´šç¯©é¸ï¼›å€åŸŸå¯ä»¥è·³é</small></legend><div className="destination-grid">
+        <label>æ´²<select value={continent} onChange={(event) => { setContinent(event.target.value); setRegion(""); setCountry(""); setCity(""); }}><option value="">å“ªè£¡éƒ½å¯ä»¥</option>{continents.map((item) => <option key={item.id} value={item.id}>{item.label}</option>)}</select></label>
+        <label>å€åŸŸï¼ˆé¸å¡«ï¼‰<select value={region} disabled={!continent} onChange={(event) => { setRegion(event.target.value); setCountry(""); setCity(""); }}><option value="">å€åŸŸä¸æ‹˜</option>{regions.filter((item) => item.continent === continent).map((item) => <option key={item.id} value={item.id}>{item.label}</option>)}</select></label>
+        <label>åœ‹å®¶<select value={country} disabled={!continent} onChange={(event) => { setCountry(event.target.value); setCity(""); }}><option value="">åœ‹å®¶ä¸æ‹˜</option>{availableCountries.map((item) => <option key={item.id} value={item.id}>{item.label}</option>)}</select></label>
+        <label>åŸå¸‚ï¼æ©Ÿå ´<select value={city} disabled={!country} onChange={(event) => setCity(event.target.value)}><option value="">åŸå¸‚èˆ‡æ©Ÿå ´ä¸æ‹˜</option>{cities.filter((item) => item.country === country).sort((a, b) => b.popularity - a.popularity).map((item) => <option key={item.id} value={item.id}>{item.label}ï¼ˆ{item.airportCode}{item.airportCount > 1 ? ` ç­‰ ${item.airportCount} åº§æ©Ÿå ´` : ""}ï¼‰</option>)}</select></label>
+      </div><p className="destination-example">ç›®å‰æ”¶éŒ„ {destinationContinents.length} å¤§æ´²ã€{destinationRegions.length} å€‹å€åŸŸã€{destinationCountries.length} å€‹åœ‹å®¶ã€{destinations.length} å€‹ä¸»è¦æ—…éŠåŸå¸‚èˆ‡ {destinations.reduce((total, item) => total + item.airports.length, 0)} åº§æ©Ÿå ´ã€‚<br />ä¾‹å¦‚ï¼šåŒ—ç¾æ´² â†’ åŠ æ‹¿å¤§ â†’ æº«å“¥è¯ï¼›æ±å—äº â†’ è¶Šå— â†’ åŸå¸‚èˆ‡æ©Ÿå ´ä¸æ‹˜ï¼ˆè¶Šå—éƒ½å¯ä»¥ï¼‰</p></fieldset>
+      <fieldset><legend>æ—…è¡Œåå¥½ <small>å¯è¤‡é¸ï¼Œä¹Ÿå¯ä»¥è·³é</small></legend><div className="style-grid">{styles.map((style) => <button key={style.id} type="button" className={selectedStyles.includes(style.id) ? "selected" : ""} aria-pressed={selectedStyles.includes(style.id)} onClick={() => toggleStyle(style.id)}><span>{style.symbol}</span><b>{style.label}</b><small>{style.hint}</small></button>)}</div></fieldset>
+      {!solo && <div className="check-label ready-check"><input id={`ready-toggle-${compact ? "compact" : "full"}`} aria-label="æˆ‘æº–å‚™å¥½äº†" type="checkbox" checked={ready} onChange={(event) => setReady(event.target.checked)} /><label htmlFor={`ready-toggle-${compact ? "compact" : "full"}`}><b>æˆ‘æº–å‚™å¥½äº†</b><small>ç¢ºèªé€™ä»½æ¢ä»¶å¯ä»¥äº¤çµ¦å…¨åœ˜å–äº¤é›†ï¼›ä¹‹å¾Œä»å¯ä¿®æ”¹ä¸¦é‡æ–°ç¢ºèª</small></label></div>}
+      <button className="primary-button" disabled={busy || (!solo && !ready)} type="submit">{busy ? "æ­£åœ¨å„²å­˜æ¢ä»¶â€¦" : solo ? original ? "æ›´æ–°ä¸¦é‡æ–°æœå°‹" : "å®Œæˆï¼Œé–‹å§‹æœå°‹" : original ? "æ›´æ–°æ¢ä»¶ä¸¦æ¨™è¨˜æº–å‚™å®Œæˆ" : "é€å‡ºæ¢ä»¶ä¸¦æ¨™è¨˜æº–å‚™å®Œæˆ"}</button>
+    </form>
+  );
+}
+
+function GroupSummary({ detail, solo = false }: { detail: GroupDetail; solo?: boolean }) {
+  const complete = detail.summary.total > 0 && detail.summary.completed === detail.summary.total;
+  const hasDateOverlap = !detail.summary.windowStart || !detail.summary.windowEnd || detail.summary.windowStart <= detail.summary.windowEnd;
+  const summaryText = detail.summary.windowStart && detail.summary.windowEnd
+    ? hasDateOverlap
+      ? `${formatDate(detail.summary.windowStart)} è‡³ ${formatDate(detail.summary.windowEnd)} å¯å‡ºç™¼ Â· ${solo ? "é ç®—ä¸Šé™" : "å…±åŒé ç®—å¸¶ç´„"} ${money(detail.summary.budgetCeiling)}`
+      : `æ—¥æœŸæ²’æœ‰å…±åŒäº¤é›†ï¼šæœ€æ—©å¯å‡ºç™¼ ${formatFullDate(detail.summary.windowStart)}ï¼Œæœ€æ™šéœ€å›ä¾† ${formatFullDate(detail.summary.windowEnd)}`
+    : solo
+      ? "å¡«å®Œæ¢ä»¶å¾Œï¼Œå°±æœƒé¡¯ç¤ºé©åˆä½ çš„å»ºè­°ã€‚"
+      : "æ¯å€‹äººé€å‡ºæ¢ä»¶ä¸¦å‹¾é¸æº–å‚™å®Œæˆå¾Œï¼Œæ‰æœƒå‡ºç¾æ‰¾ç¥¨æŒ‰éˆ•ã€‚";
+  return (
+      <div className="group-summary"><div className={`summary-ring ${complete ? "complete" : ""}`}><strong>{detail.summary.completed}</strong><small>/{detail.summary.total}</small></div><div><span className="section-kicker">{solo ? "ç›®å‰æœå°‹æ¢ä»¶" : "å…¨å“¡æº–å‚™ç‹€æ…‹"}</span><h2>{solo ? "å·²å®Œæˆå€‹äººæ¢ä»¶" : complete ? "å¤§å®¶éƒ½æº–å‚™å¥½äº†" : `é‚„å·® ${detail.summary.total - detail.summary.completed} äººç¢ºèª`}</h2><p>{summaryText}</p></div></div>
+  );
+}
+
+function CalculationPanel({ solo }: { solo: boolean }) {
+  return (
+    <section className="calculation-panel" aria-label="åå¥½åˆ†æ•¸è¨ˆç®—æ–¹å¼">
+      <div><span className="calc-number">01</span><h3>å…ˆå¥—ç”¨ä¸èƒ½é•åçš„æ¢ä»¶</h3><p>æ—¥æœŸå¿…é ˆæœ‰äº¤é›†ã€å¤©æ•¸å¿…é ˆå®¹å¾—ä¸‹ã€ç›®çš„åœ°å¿…é ˆåœ¨æ‰€æœ‰äººçš„ç¯„åœå…§ï¼Œä¸¦éµå®ˆç›´é£›æˆ–è½‰æ©Ÿä¸Šé™ã€‚ä¸ç¬¦åˆå°±ç›´æ¥æ’é™¤ï¼Œä¸æœƒé åˆ†æ•¸è£œå›ä¾†ã€‚</p></div>
+      <div><span className="calc-number">02</span><h3>{solo ? "è¨ˆç®—ä½ çš„åå¥½å»åˆåº¦" : "è¨ˆç®—æ¯ä½æˆå“¡çš„åå¥½å»åˆåº¦"}</h3><p>æ—…è¡Œé¢¨æ ¼å  45%ã€ç›®çš„åœ°å±¤ç´šå  45%ã€é ç®—ç›¸å°æ–¼ç›®çš„åœ°åƒè€ƒåƒ¹å  10%ã€‚æŒ‡å®šåŸå¸‚æ¯”åªé¸æ´²åˆ¥ç²å¾—æ›´é«˜çš„ç›®çš„åœ°å»åˆåº¦ã€‚</p></div>
+      <div><span className="calc-number">03</span><h3>{solo ? "æ›ç®—æˆåå¥½åˆ†æ•¸" : "å¹³å‡ä¹‹å¤–ï¼Œä¹Ÿç…§é¡§æœ€ä½åˆ†æˆå“¡"}</h3><p>{solo ? "ç•«é¢åˆ†æ•¸æ˜¯ 62 åˆ†åŸºç¤å€¼ï¼ŒåŠ ä¸Šåå¥½å»åˆçµæœæ›ç®—ï¼›å®ƒæ˜¯å€™é¸æ’åºåˆ†æ•¸ï¼Œä¸æ˜¯æˆåŠŸæ©Ÿç‡ã€‚" : "åœ˜é«”åˆ†æ•¸ï¼62 åˆ†åŸºç¤å€¼ï¼‹å…¨å“¡å¹³å‡å»åˆåº¦æ›ç®— 23 åˆ†ï¼‹æœ€ä½å»åˆæˆå“¡æ›ç®— 15 åˆ†ï¼Œé¿å…åªç…§å¤šæ•¸æ±ºçŠ§ç‰²å…¶ä¸­ä¸€äººã€‚"}</p></div>
+      <div><span className="calc-number">04</span><h3>å³æ™‚èˆªç­å¦å¤–é©—è­‰</h3><p>åå¥½åˆ†æ•¸ä¸åŒ…å«å°šæœªæŸ¥åˆ°çš„ç¥¨åƒ¹ã€‚ä¸‰çµ„æ—¥æœŸæœƒå‘ Google Flights å³æ™‚æŸ¥åƒ¹ï¼Œæœ‰å¯å”®èˆªç­æ‰æˆç«‹ï¼Œå†ä¾å„ç›®çš„åœ°çš„å¯¦éš›ç¥¨åƒ¹æ’åºæ—¥æœŸã€‚</p></div>
+      <p className="calculation-note">é€™æ˜¯é€æ˜çš„ç”¢å“æ’åºè¦å‰‡ï¼Œä¸æ˜¯ AI çŒœæ¸¬ï¼Œä¹Ÿä¸æ˜¯ç¥¨åƒ¹ä¾¿å®œæ©Ÿç‡ã€‚å…¶ä»–æˆå“¡ä¸æœƒçœ‹åˆ°ä½ çš„ç²¾ç¢ºé ç®—æˆ–å€‹äººåˆ†æ•¸ã€‚</p>
+    </section>
+  );
+}
+
+function VoteSummary({ detail }: { detail: GroupDetail }) {
+  const tallies = detail.voting.tallies
+    .map((tally) => ({ ...tally, candidate: detail.candidates.find((candidate) => candidate.id === tally.candidateId) }))
+    .filter((tally) => tally.candidate);
+  const leadingCount = Math.max(0, ...tallies.map((tally) => tally.count));
+  const notVoted = detail.members
+    .filter((member) => !detail.voting.votedUserIds.includes(member.userId))
+    .map((member) => member.displayName);
+  return (
+    <section className="vote-summary" aria-label="æ—…åœ˜æŠ•ç¥¨æ‘˜è¦">
+      <div className="vote-summary-head"><div><span className="section-kicker">æŠ•ç¥¨å³æ™‚æ‘˜è¦</span><h3>{detail.voting.votersCount}/{detail.voting.totalMembers} äººå·²æŠ•ç¥¨</h3></div><span className="multi-vote-note">æ¯äººå¯ä»¥è¤‡é¸</span></div>
+      <div className="vote-tally-grid">
+        {tallies.map((tally) => <div className={`vote-tally ${leadingCount > 0 && tally.count === leadingCount ? "leading" : ""}`} key={tally.candidateId}>
+          <div><b>{tally.candidate?.destination}</b><strong>{tally.count} ç¥¨</strong></div>
+          <div className="vote-dots" aria-label={`${tally.count} ç¥¨`}>{detail.members.map((member) => <span className={tally.voterUserIds.includes(member.userId) ? "filled" : ""} key={member.userId} title={member.displayName} />)}</div>
+          <small>{tally.voterNames.length ? tally.voterNames.join("ã€") : "é‚„æ²’æœ‰äººé¸"}</small>
+        </div>)}
+      </div>
+      <p>{notVoted.length ? `å°šæœªæŠ•ç¥¨ï¼š${notVoted.join("ã€")}` : "å…¨å“¡éƒ½å·²ç¶“æŠ•ç¥¨ï¼›ä»å¯ç¹¼çºŒå¢é¸æˆ–å–æ¶ˆã€‚"}</p>
+    </section>
+  );
+}
+
+function CandidateCard({ candidate, rank, solo, selected, busy, origin, adults, onChoose }: { candidate: Candidate; rank: number; solo: boolean; selected: boolean; busy: boolean; origin: string; adults: number; onChoose: () => Promise<GroupDetail | null> }) {
+  const airports = candidate.payload.airports?.length ? candidate.payload.airports : [{ code: candidate.payload.code, name: `${candidate.destination}ä¸»è¦æ©Ÿå ´` }];
+  const sourceDateOptions = candidate.payload.dateOptions?.length ? candidate.payload.dateOptions : [{ departureDate: candidate.departureDate, returnDate: candidate.returnDate, matchType: "overlap" as const }];
+  const serializedDateOptions = JSON.stringify(sourceDateOptions);
+  const [airportCode, setAirportCode] = useState(airports[0].code);
+  const selectedAirport = airports.find((airport) => airport.code === airportCode) ?? airports[0];
+  const rankingContextKey = `${origin || "TPE"}:${selectedAirport.code}:${adults}:${candidate.payload.maxStops}:${serializedDateOptions}`;
+  const [rankedDates, setRankedDates] = useState(() => sourceDateOptions.map((option, originalOrder) => ({ ...option, originalOrder, quote: { status: "loading" } as LiveQuote })));
+  const [resolvedRankingKey, setResolvedRankingKey] = useState("");
+  const [selectedDateKey, setSelectedDateKey] = useState(`${sourceDateOptions[0].departureDate}:${sourceDateOptions[0].returnDate}`);
+  const visibleRankedDates = resolvedRankingKey === rankingContextKey ? rankedDates : sourceDateOptions.map((option, originalOrder) => ({ ...option, originalOrder, quote: { status: "loading" } as LiveQuote }));
+
+  useEffect(() => {
+    const controller = new AbortController();
+    const options = JSON.parse(serializedDateOptions) as Array<{ departureDate: string; returnDate: string; matchType: "exact" | "overlap" }>;
+
+    Promise.all(options.map(async (option, originalOrder) => {
+      const quoteParams = new URLSearchParams({
+        origin: origin || "TPE",
+        destination: selectedAirport.code,
+        departureDate: option.departureDate,
+        returnDate: option.returnDate,
+        adults: String(Math.max(1, adults)),
+        directOnly: String(candidate.payload.maxStops === 0),
+      });
+      try {
+        const result = await fetch(`/api/flights/quote?${quoteParams}`, { signal: controller.signal });
+        const body = await result.json() as LiveQuote;
+        const quote = result.ok ? body : { ...body, status: body.status === "unconfigured" ? "unconfigured" as const : "error" as const };
+        return { ...option, originalOrder, quote };
+      } catch (error: unknown) {
+        if (error instanceof DOMException && error.name === "AbortError") throw error;
+        return { ...option, originalOrder, quote: { status: "error" as const, error: "æš«æ™‚ç„¡æ³•å–å¾—å³æ™‚å ±åƒ¹" } };
+      }
+    })).then((results) => {
+      const byAvailabilityAndPrice = (a: (typeof results)[number], b: (typeof results)[number]) => {
+        const statusRank = (quote: LiveQuote) => quote.status === "live" ? 0 : quote.status === "no_direct" || quote.status === "no_results" ? 1 : 2;
+        const statusDifference = statusRank(a.quote) - statusRank(b.quote);
+        if (statusDifference) return statusDifference;
+        if (a.quote.status === "live" && b.quote.status === "live") return (a.quote.price ?? Number.MAX_SAFE_INTEGER) - (b.quote.price ?? Number.MAX_SAFE_INTEGER);
+        return a.originalOrder - b.originalOrder;
+      };
+      const sorted = candidate.payload.dateMode === "exact"
+        ? [...results.filter((result) => result.matchType === "exact"), ...results.filter((result) => result.matchType !== "exact").sort(byAvailabilityAndPrice)]
+        : [...results].sort(byAvailabilityAndPrice);
+      if (controller.signal.aborted) return;
+      setRankedDates(sorted);
+      setResolvedRankingKey(rankingContextKey);
+      const preferred = candidate.payload.dateMode === "exact" ? sorted[0] : sorted.find((result) => result.quote.status === "live") ?? sorted[0];
+      if (preferred) setSelectedDateKey(`${preferred.departureDate}:${preferred.returnDate}`);
+    }).catch((error: unknown) => {
+      if (!(error instanceof DOMException && error.name === "AbortError")) {
+        setRankedDates(options.map((option, originalOrder) => ({ ...option, originalOrder, quote: { status: "error", error: "æš«æ™‚ç„¡æ³•å–å¾—å³æ™‚å ±åƒ¹" } as LiveQuote })));
+        setResolvedRankingKey(rankingContextKey);
+      }
+    });
+    return () => controller.abort();
+  }, [adults, candidate.payload.dateMode, candidate.payload.maxStops, origin, rankingContextKey, selectedAirport.code, serializedDateOptions]);
+
+  const selectedDateResult = visibleRankedDates.find((option) => `${option.departureDate}:${option.returnDate}` === selectedDateKey) ?? visibleRankedDates[0];
+  const selectedDate = selectedDateResult ?? sourceDateOptions[0];
+  const displayedQuote: LiveQuote = selectedDateResult?.quote ?? { status: "loading" };
+  const liveDateCount = visibleRankedDates.filter((option) => option.quote.status === "live").length;
+
+  const googleParams = new URLSearchParams({
+    hl: "zh-TW",
+    curr: "TWD",
+    q: `${origin || "TPE"} åˆ° ${selectedAirport.code} ${selectedDate.departureDate} è‡³ ${selectedDate.returnDate}${candidate.payload.maxStops === 0 ? " ç›´é£›" : ""}`,
+  });
+  const flightUrl = `https://www.google.com/travel/flights?${googleParams.toString()}`;
+  const quoteTitle = displayedQuote.status === "loading"
+    ? "æ­£åœ¨æŸ¥å³æ™‚ç¥¨åƒ¹â€¦"
+    : displayedQuote.status === "live" && displayedQuote.price !== undefined
+      ? money(displayedQuote.price)
+      : displayedQuote.status === "no_direct"
+        ? "é€™çµ„æ—¥æœŸæ²’æœ‰ç›´é£›"
+        : displayedQuote.status === "no_results"
+          ? "é€™çµ„æ—¥æœŸæ²’æœ‰å¯å”®èˆªç­"
+          : displayedQuote.status === "unconfigured"
+            ? "å°šæœªé€£æ¥å³æ™‚è³‡æ–™æº"
+            : "å³æ™‚æŸ¥åƒ¹æš«æ™‚å¤±æ•—";
+  const quoteNote = displayedQuote.status === "live"
+    ? `${displayedQuote.source} å³æ™‚çµæœ${candidate.payload.maxStops === 0 ? " Â· å·²é©—è­‰å…¨ç¨‹ç›´é£›" : ""} Â· ä¸‰çµ„æ—¥æœŸä¸­ ${liveDateCount} çµ„æœ‰ç¥¨ Â· ${displayedQuote.checkedAt ? new Date(displayedQuote.checkedAt).toLocaleTimeString("zh-TW", { hour: "2-digit", minute: "2-digit" }) : "å‰›å‰›"}`
+    : displayedQuote.status === "no_direct"
+      ? "Google Flights æŸ¥ç„¡é€™çµ„æ—¥æœŸçš„å»å›ç¨‹ç›´é£›ï¼›é€™å€‹çµ„åˆä¸æˆç«‹"
+      : displayedQuote.status === "no_results"
+        ? "Google Flights æŸ¥ç„¡é€™çµ„æ—¥æœŸçš„å¯å”®èˆªç­ï¼›é€™å€‹çµ„åˆä¸æˆç«‹"
+    : displayedQuote.status === "unconfigured"
+      ? "éœ€æ”¾å…¥ SerpApi API Key å¾Œæ‰æœƒå•Ÿç”¨"
+      : "ä¸ä»¥è½‰æ©Ÿåƒ¹æ ¼ä»£æ›¿ç›´é£›å ±åƒ¹";
+  return (
+    <article className={`candidate-card ${selected ? "selected" : ""}`}>
+      <div className="candidate-rank">0{rank}</div>
+      <div className="candidate-main"><div className="destination"><span>{candidate.payload.emoji}</span><div><h3>{candidate.destination}</h3><p>{candidate.payload.country} Â· {selectedAirport.name}ï¼ˆ{selectedAirport.code}ï¼‰</p></div></div><p className="candidate-note">{candidate.payload.note}</p><div className="route-choices"><div><b>æŠµé”å“ªåº§æ©Ÿå ´</b><span>{airports.map((airport) => <button key={airport.code} type="button" className={airport.code === selectedAirport.code ? "selected" : ""} onClick={() => setAirportCode(airport.code)}>{airport.name}<small>{airport.code}</small></button>)}</span></div><div><b>{candidate.payload.dateMode === "exact" ? "æŒ‡å®šæ—¥æœŸæ’ç¬¬ä¸€ï¼›å…¶ä»–æ—¥æœŸä¾å³æ™‚ç¥¨åƒ¹æ’åº" : "ä¸‰çµ„æ¨¡ç³Šæ—¥æœŸè‡ªå‹•æŸ¥åƒ¹ï¼Œå„ç›®çš„åœ°åˆ†åˆ¥æ’å"}</b><span>{visibleRankedDates.map((option) => { const liveRank = visibleRankedDates.filter((candidateDate) => candidateDate.quote.status === "live").findIndex((candidateDate) => candidateDate.departureDate === option.departureDate && candidateDate.returnDate === option.returnDate) + 1; const optionKey = `${option.departureDate}:${option.returnDate}`; const optionLabel = option.matchType === "exact" ? "æŒ‡å®šæ—¥æœŸ" : option.quote.status === "loading" ? "æŸ¥åƒ¹ä¸­" : option.quote.status === "live" ? `ç¬¬ ${liveRank} å Â· ${money(option.quote.price ?? null)}` : option.quote.status === "no_direct" ? "æ²’æœ‰ç›´é£›" : option.quote.status === "no_results" ? "æ²’æœ‰å¯å”®èˆªç­" : "æŸ¥åƒ¹å¤±æ•—"; return <button key={optionKey} type="button" className={`${optionKey === selectedDateKey ? "selected" : ""} ${option.quote.status === "live" ? "available" : "unavailable"}`} onClick={() => setSelectedDateKey(optionKey)}><small>{optionLabel}</small>{formatDate(option.departureDate)}â€“{formatDate(option.returnDate)}</button>; })}</span></div></div><div className="reason-list">{displayedQuote.status === "no_direct" || displayedQuote.status === "no_results" ? <><span>âœ• {liveDateCount ? "ç›®å‰é¸å–çš„æ—¥æœŸæ²’æœ‰ç¬¦åˆæ¢ä»¶çš„èˆªç­" : "ä¸‰çµ„æ—¥æœŸéƒ½æ²’æœ‰ç¬¦åˆæ¢ä»¶çš„å¯å”®èˆªç­"}</span><small>{liveDateCount ? "è«‹é¸ä¸Šæ–¹æ¨™æœ‰å³æ™‚åƒ¹æ ¼çš„æ›¿ä»£æ—¥æœŸï¼›ç›®çš„åœ°æœ¬èº«ä»ç„¶æœ‰æ•ˆã€‚" : "é€™åªä»£è¡¨ç›®å‰ä¸‰çµ„æ—¥æœŸçš„æŸ¥åƒ¹çµæœï¼Œä¸ä»£è¡¨æ•´æ®µæ¨¡ç³ŠæœŸé–“å®Œå…¨æ²’æœ‰ç­æ©Ÿã€‚"}</small></> : <>{candidate.payload.reasons.map((reason) => <span key={reason}>âœ“ {reason}</span>)}<small>{displayedQuote.status === "loading" ? "æ­£åœ¨åŒæ™‚æŸ¥è©¢ä¸‰çµ„æ—¥æœŸä¸¦é‡æ–°æ’åã€‚" : "å·²ä¾é€™å€‹ç›®çš„åœ°çš„å³æ™‚å¯å”®ç¥¨åƒ¹å®Œæˆæ—¥æœŸæ’åã€‚"}</small></>}</div><div className="tag-row">{candidate.payload.styles.slice(0, 3).map((style) => <span key={style}>{styles.find((item) => item.id === style)?.label || style}</span>)}</div></div>
+      <div className="fit-score"><span>{solo ? "å€‹äººåå¥½åˆ†æ•¸" : "åœ˜é«”åå¥½åˆ†æ•¸"}</span><strong>{candidate.fitScore}<small>/100</small></strong><i><b style={{ width: `${candidate.fitScore}%` }} /></i></div>
+      <div className="candidate-action"><span>{candidate.payload.maxStops === 0 ? "æ¯äººä¾†å›ç›´é£›å³æ™‚åƒ¹" : "æ¯äººä¾†å›å³æ™‚åƒ¹"}</span><strong className={displayedQuote.status === "live" ? "" : "unverified-price"}>{quoteTitle}</strong><small>{quoteNote}<br />{selectedAirport.code} Â· {formatDate(selectedDate.departureDate)}â€“{formatDate(selectedDate.returnDate)}</small><a className="buy-link" href={displayedQuote.bookingUrl || flightUrl} target="_blank" rel="noopener noreferrer">{displayedQuote.status === "no_direct" || displayedQuote.status === "no_results" ? "åœ¨ Google Flights æŸ¥çœ‹ç›¸é„°æ—¥æœŸ" : "åœ¨ Google Flights é–‹å•Ÿé€™çµ„èˆªç­"} â†—</a><button type="button" disabled={busy || displayedQuote.status !== "live"} onClick={() => void onChoose()}>{displayedQuote.status !== "live" ? "æŸ¥åˆ°å¯å”®ç¥¨åƒ¹å¾Œæ‰èƒ½é¸æ“‡" : selected ? solo ? "å·²æ”¶è— âœ“" : "å·²æŠ•é€™ç¥¨ âœ“ã€€é»æ“Šå–æ¶ˆ" : solo ? "æ”¶è—é€™å€‹å»ºè­°" : "æŠ•çµ¦é€™å€‹é¸é …"}</button></div>
+    </article>
+  );
+}
+
+function Footer() {
+  return <footer><span className="footer-brand">éš¨é£›</span><p>LINE ç”¨ä¾†èŠå¤©ï¼Œéš¨é£›ç”¨ä¾†æ‰¾åˆ°å…±åŒç­”æ¡ˆã€‚</p><span>ç¥¨åƒ¹èˆ‡è³¼è²·ç”±å¤–éƒ¨èˆªç­å¹³å°æä¾›</span></footer>;
+}
+
+function LoadingScreen() {
+  return <main className="loading-screen"><span className="brand-mark"><span /></span><b>æ­£åœ¨æ•´ç†æ—…è¡Œäº¤é›†</b><i /></main>;
+}
